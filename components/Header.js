@@ -15,7 +15,7 @@ export default function Header() {
       <header className="flex flex-col lg:flex-row items-center justify-between px-12 py-6 bg-secondary">
       
       <div className="flex items-center space-x-4">
-      <Image src="/heart_pulse.svg" height={35} width={35} />
+      <Image src="/heart_pulse.svg" height={35} width={35} alt="Heart pump image" />
     
         <Link href="/" className=" font-bold text-lg text-primary">Gregoire ABI CHAKER</Link>
       </div>
@@ -36,9 +36,19 @@ export default function Header() {
       className="absolute top-5 right-4 flex lg:hidden align-center flex-col space-y-2 p-2 transition-opacity hover:cursor-pointer hover:opacity-80"
           
       >
-        <span className="h-0.5 w-7 bg-primary"></span>
-        <span className="h-0.5 w-7 bg-primary"></span>
-        <span className="h-0.5 w-7 bg-primary"></span>
+       <span
+    className={`h-0.5 w-7 bg-primary transform ${isOpen ? 'rotate-45 translate-y-2.5' : ''} transition`}
+  ></span>
+    <span
+        className={`h-0.5 w-7 bg-primary ${
+        isOpen ? 'opacity-0' : 'opacity-100'
+        } transition`}
+    ></span>
+    <span
+        className={`h-0.5 w-7 bg-primary transform ${
+        isOpen ? '-rotate-45 -translate-y-2.5' : ''
+        } transition`}
+    ></span>
       </div>
    </>
   )

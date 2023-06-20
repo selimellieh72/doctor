@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 
-import Script from 'next/script'
+
 import Header from '@/components/Header'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-       <Script src="https://kit.fontawesome.com/5185363371.js" crossorigin="anonymous"></Script>
+     
       <body className={inter.className}>
         <Header/>
         {children}
