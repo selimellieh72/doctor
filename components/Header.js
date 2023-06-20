@@ -33,7 +33,7 @@ export default function Header() {
       </header>
       <div 
         onClick={() => setIsOpen(!isOpen)}
-      className="absolute top-5 right-5 flex lg:hidden align-center flex-col space-y-2 p-2 transition-opacity hover:cursor-pointer hover:opacity-80"
+      className="absolute top-5 right-4 flex lg:hidden align-center flex-col space-y-2 p-2 transition-opacity hover:cursor-pointer hover:opacity-80"
           
       >
         <span className="h-0.5 w-7 bg-primary"></span>
