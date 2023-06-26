@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    padding-top: 40px;
-    padding-bottom: 204px;
+
+body{ min-height:100vh; margin:0; position:relative; }
+body::before {
+    content: "";
+    display: block;
+    height: 40px;
+}
+
+body::after{
+    content: "";
+    display: block;
+    height: 204px;
 }
