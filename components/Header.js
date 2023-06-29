@@ -12,8 +12,9 @@ export default function Header() {
 
   return (
 <header>
-      <div className='font-medium h-10 border-b-2 border-secondary text-center flex justify-center items-center bg-gray-100 opacity-100 hover:cursor-pointer hover:bg-white fixed w-full top-0 z-50'>
-      Susisiekite su mumis <span className=' text-secondary font-semibold mx-2'>+370 640 36369</span>
+      <div className='flex justify-between h-[66px] px-12 py-2 font-medium border-b-2 border-secondary text-center items-center bg-gray-100 opacity-100 hover:cursor-pointer hover:bg-white fixed w-full top-0 z-50'>
+      
+<span class>Profesionalios teismo medicinos paslaugos</span> <span className='font-semibold mx-2'>Tel. <span className='text-secondary font-bold'>+370 640 36369</span></span>
       </div>
       <div className="flex flex-col lg:flex-row items-center justify-between px-12 py-6 bg-secondary">
       
