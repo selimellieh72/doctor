@@ -21,7 +21,7 @@ export default function Home() {
         <span className=" rounded-full w-4 h-4 bg-secondary inline-block mx-1"/>
         <span className=" rounded-full w-4 h-4 bg-secondary inline-block mx-1"/>
         </div> */}
-                <p className="my-6 lg:my-8 lg:mr-6 font-semibold text-secondary text-left lines leading-8">
+                <p className="my-6 lg:my-8 lg:mr-6 font-semibold text-secondary  lines leading-8 text-justify">
 
 Teismo medicinos gydytojas <span className=" text-bold">Gregoire ABI CHAKER</span> yra nepriklausomas teismo medicinos ekspertas, privatus teismo ekspertas (įtrauktas į Lietuvos Respublikos teismo ekspertų sąrašą <a className=" text-blue-400" href="https://shorturl.at/aLST5">https://shorturl.at/aLST5</a>), turintis aukštąjį universitetinį medicininį išsilavinimą, teismo medicinos gydytojo specialybę, kvalifikaciją atlikti gyvų ir mirusių asmenų tyrimus, teismo medicinos gydytojo licenciją (Nr. MPL-09604). Darbo teismo medicinos srityje stažas nuo 1999 metų.
 <br/>Nepriklausomas teismo medicinos ekspertas konsultuoja visais teismo medicinos klausimais bei pateikia konsultacines išvadas (specialisto išvadas). Ekspertas yra kompetentingas, jo specialios žinios yra pagrįstos ilgamete darbo praktika, pasaulinės mokslinės literatūros, objektyvumo, supratingumo bei atidumo principais. Teismo medicinos gydytojas turi daugiau nei 20 metų darbo patirties Lietuvoje teismo medicinos srityje. Yra atlikęs daugiau nei 3 000 mirusiųjų tyrimų (autopsijų) bei daugiau nei 5 000 gyvų asmenų tyrimų.
