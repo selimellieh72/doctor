@@ -11,7 +11,7 @@ export default function Header() {
 
 
   return (
-<header className='px-12 py-4 lg:py-6 bg-secondary'>
+<header className='px-12 py-4 lg:py-6 fixed top-0 w-full bg-secondary z-50'>
       <div className='hidden lg:flex justify-between bg-primary text-secondary py-2 px-4 mb-4'>
       <span >Profesionalios teismo medicinos paslaugos</span> <span className='mx-2'>Tel. <span className='text-secondary'>+370 640 36369</span>
       </span>

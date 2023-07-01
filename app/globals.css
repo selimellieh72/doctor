@@ -5,8 +5,25 @@
 
 body{ min-height:100vh; margin:0; position:relative; }
 
+
+body::before{
+    content: "";
+    display: block;
+    height: 139px;
+}
+
+
 body::after{
     content: "";
     display: block;
     height: 204px;
+}
+
+@media(max-width: 1028px) {
+    body::before{
+        content: "";
+        display: block;
+        height: 75px;
+    }
+    
 }
