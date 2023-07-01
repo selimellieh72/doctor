@@ -2,12 +2,14 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 
 
 
 export default function Header() {
 
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
 
   return (
@@ -18,15 +20,17 @@ export default function Header() {
       </div>
       <div className="flex flex-col lg:flex-row items-center justify-between ">
       
-      <div className="flex items-center space-x-4">
-      <Image src="/heart_pulse.svg" height={35} width={35} alt="Heart pump image" />
-    
-        <Link href="/" className=" font-bold text-lg text-primary">Gregoire ABI CHAKER</Link>
-      </div>
+      <Link href="/">
+        <div className="flex items-center space-x-4">
+        <Image src="/heart_pulse.svg" height={35} width={35} alt="Heart pump image" />
+      
+          <span className=" font-bold text-lg text-primary">Gregoire ABI CHAKER</span>
+        </div>
+      </Link>
       <span className='text-primary font-bold lg:hidden'>Tel. +370 640 36369</span>
       <ul className={`overflow-hidden transition-all mt-4 lg:mt-0 ${isOpen? 'max-h-[350px]' : 'max-h-0' } lg:max-h-[350px] lg:pt-0 flex-col lg:flex-row lg:flex space-y-10 lg:space-y-0 lg:space-x-8 text-primary font-medium text-center`}>
         
-        <li className="hover:text-amber-700 transition-colors "><Link href="">Apie mane</Link></li>
+        <li className={`${pathname == "/apie-mane" ? "text-amber-900" : "hover:text-amber-700"} transition-colors`}><Link href="/apie-mane">Apie mane</Link></li>
         <li className="hover:text-amber-700 transition-colors"><Link href="">Gyvų asmenų tyrimai</Link></li>
         <li className="hover:text-amber-700 transition-cobzlors"><Link href="">Mirusių asmenų tyrimai</Link></li>
         <li className="hover:text-amber-700 transition-colors"><Link href="">DUK</Link></li>
