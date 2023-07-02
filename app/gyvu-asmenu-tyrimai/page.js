@@ -17,7 +17,7 @@ export default function GyvuAsmenuTryimai() {
             <Image
               fill
               style={{ objectFit: "contain" }}
-              className=" rounded-lg"
+  
               src="/gyvu-asmenu-tyrimai.jpeg"
               alt="gregoire"
             />

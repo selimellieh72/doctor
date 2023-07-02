@@ -17,7 +17,7 @@ Mirusių asmenų teismo medicinos tyrimai
             <Image
               fill
               style={{ objectFit: "contain" }}
-              className=" rounded-lg"
+
               src="/mirusiu-asmenu-tyrimai.jpg"
               alt="gregoire"
             />

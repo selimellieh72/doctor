@@ -17,7 +17,7 @@ export default function MirusiuAsmenuTyrimai() {
             <Image
               fill
               style={{ objectFit: "contain" }}
-              className=" rounded-lg"
+
               src="/duk.jpg"
               alt="gregoire"
             />

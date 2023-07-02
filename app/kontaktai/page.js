@@ -20,7 +20,7 @@ export default function GyvuAsmenuTryimai() {
             <Image
               fill
               style={{ objectFit: "contain" }}
-              className=" rounded-lg"
+          
               src="/kontaktai.webp"
               alt="gregoire"
             />

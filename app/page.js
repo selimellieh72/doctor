@@ -33,7 +33,7 @@ Konsultuoju visais gyvų ir mirusių asmenų teismo medicinos tyrimų klausimais
             <Image
               fill
               style={{ objectFit: "contain" }}
-              className=" rounded-lg"
+       
               src="/welcome.jpg"
               alt="gregoire"
             />
