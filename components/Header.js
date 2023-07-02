@@ -31,10 +31,10 @@ export default function Header() {
       <ul className={`overflow-hidden transition-all mt-4 lg:mt-0 ${isOpen? 'max-h-[350px]' : 'max-h-0' } lg:max-h-[350px] lg:pt-0 flex-col lg:flex-row lg:flex space-y-10 lg:space-y-0 lg:space-x-8 text-primary font-medium text-center`}>
         
         <li className={`${pathname == "/apie-mane" ? "text-amber-900" : "hover:text-amber-700"} transition-colors`}><Link href="/apie-mane">Apie mane</Link></li>
-        <li className="hover:text-amber-700 transition-colors"><Link href="">Gyvų asmenų tyrimai</Link></li>
-        <li className="hover:text-amber-700 transition-cobzlors"><Link href="">Mirusių asmenų tyrimai</Link></li>
-        <li className="hover:text-amber-700 transition-colors"><Link href="">DUK</Link></li>
-        <li className="hover:text-amber-700 transition-colors"><Link href="">Kontaktai</Link></li>
+        <li className={`${pathname == "/gyvu-asmenu-tyrimai" ? "text-amber-900" : "hover:text-amber-700"} transition-colors`}><Link href="/gyvu-asmenu-tyrimai">Gyvų asmenų tyrimai</Link></li>
+        <li className={`${pathname == "/mirusiu-asmenu-tyrimai" ? "text-amber-900" : "hover:text-amber-700"} transition-colors`}><Link href="/mirusiu-asmenu-tyrimai">Mirusių asmenų tyrimai</Link></li>
+        <li className={`${pathname == "/duk" ? "text-amber-900" : "hover:text-amber-700"} transition-colors`}><Link href="/duk">DUK</Link></li>
+        <li className={`${pathname == "/kontaktai" ? "text-amber-900" : "hover:text-amber-700"} transition-colors`}><Link href="/kontaktai">Kontaktai</Link></li>
       </ul>
 
      
