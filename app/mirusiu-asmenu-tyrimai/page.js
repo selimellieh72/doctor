@@ -45,137 +45,137 @@ Mirusių asmenų teismo medicinos tyrimai
           </div>
         </div>
         <div className="ml-4">
-          <ul class="mb-8 space-y-8 text-left text-secondary leading-loose">
-            <li class="flex items-center space-x-3">
+          <ul className="mb-8 space-y-8 text-left text-secondary leading-loose">
+            <li className="flex items-center space-x-3">
               <svg
-                class="h-5 w-5 flex-shrink-0 text-blue-500"
+                className="h-5 w-5 flex-shrink-0 text-blue-500"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
               <span>
               Konsultuoju visais mirusių asmenų teismo medicinos tyrimų klausimais
               </span>
             </li>
-            <li class="flex items-center space-x-3">
+            <li className="flex items-center space-x-3">
               <svg
-                class="h-5 w-5 flex-shrink-0 text-blue-500 "
+                className="h-5 w-5 flex-shrink-0 text-blue-500 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
               <span>
               Atlieku mirusių asmenų teismo medicinos tyrimą (autopsiją) bei surašau specialisto išvadą
               </span>
             </li>
-            <li class="flex items-center space-x-3">
+            <li className="flex items-center space-x-3">
               <svg
-                class="h-5 w-5 flex-shrink-0 text-blue-500 "
+                className="h-5 w-5 flex-shrink-0 text-blue-500 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
               <span>
               Atlieku mirusių asmenų medicininių dokumentų analizę bei surašau specialisto išvadą
               </span>
             </li>
-            <li class="flex items-center space-x-3">
+            <li className="flex items-center space-x-3">
               <svg
-                class="h-5 w-5 flex-shrink-0 text-blue-500 "
+                className="h-5 w-5 flex-shrink-0 text-blue-500 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
               <span>
               Išrašau medicininį mirties liudijimą
               </span>
             </li>
-            <li class="flex items-center space-x-3">
+            <li className="flex items-center space-x-3">
               <svg
-                class="h-5 w-5 flex-shrink-0 text-blue-500 "
+                className="h-5 w-5 flex-shrink-0 text-blue-500 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
               <span>
               Atlieku mirusių asmenų kitų specialistų surašytų dokumentų analizę
               </span>
             </li>
-            <li class="flex items-center space-x-3">
+            <li className="flex items-center space-x-3">
               <svg
-                class="h-5 w-5 flex-shrink-0 text-blue-500 "
+                className="h-5 w-5 flex-shrink-0 text-blue-500 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
               <span>
               Konsultuoju klausimais, susijusiais mirties priežastimi, mirties laiku, mirusio kūno sužalojimais (sužalojimų pobūdžiu, padarymo būdu, padarymo laiku bei kokį sveikatos sutrikdymo mastą atitinka sužalojimai)
               </span>
             </li>
-            <li class="flex items-center space-x-3">
+            <li className="flex items-center space-x-3">
               <svg
-                class="h-5 w-5 flex-shrink-0 text-blue-500 "
+                className="h-5 w-5 flex-shrink-0 text-blue-500 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
               <span>
               Konsultuoju klausimais, susijusiais su narkotinėmis medžiagomis, narkotinių medžiagų radimu kraujyje, šlapime, vidaus organuose, kitais su narkotinėmis medžiagomis kilusiais klausimais
               </span>
             </li>
-            <li class="flex items-center space-x-3">
+            <li className="flex items-center space-x-3">
               <svg
-                class="h-5 w-5 flex-shrink-0 text-blue-500 "
+                className="h-5 w-5 flex-shrink-0 text-blue-500 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
               <span>Konsultuoju klausimais, susijusiais su deontologiniais tyrimais</span>

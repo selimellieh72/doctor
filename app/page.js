@@ -20,7 +20,7 @@ export default function Home() {
               className="focus:ring-primary-300 dark:focus:ring-primary-900 mr-3 inline-flex items-center justify-center rounded-lg bg-secondary px-5 py-3 text-center text-base font-medium text-primary focus:ring-4"
             >
               APIE MANE
-              {/* <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg> */}
+              {/* <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg> */}
             </Link>
 
             {/* <p className="my-6 lg:my-8 lg:mr-6 font-semibold text-secondary  lines leading-8 text-justify">
@@ -91,28 +91,28 @@ Konsultuoju visais gyvų ir mirusių asmenų teismo medicinos tyrimų klausimais
         </div>
       </section>
       <Divider />
-      <div class="relative  mx-4 my-16 text-gray-900 sm:rounded-lg lg:mx-16 ">
-        <div class="hero-pattern absolute bottom-0 right-0 h-56 w-64"></div>
-        <div class="relative">
+      <div className="relative  mx-4 my-16 text-gray-900 sm:rounded-lg lg:mx-16 ">
+        <div className="hero-pattern absolute bottom-0 right-0 h-56 w-64"></div>
+        <div className="relative">
           <div>
-            <h2 class="text-center text-4xl font-bold leading-tight text-secondary lg:text-5xl">
+            <h2 className="text-center text-4xl font-bold leading-tight text-secondary lg:text-5xl">
               Atsiliepimai
             </h2>
-            <div class="mx-auto my-4 h-2 w-12 border-4 border-secondary"></div>
-            {/* <div class="text-center text-primary font-light">Here are what some of our amazing customers are
+            <div className="mx-auto my-4 h-2 w-12 border-4 border-secondary"></div>
+            {/* <div className="text-center text-primary font-light">Here are what some of our amazing customers are
           saying ...</div> */}
           </div>
-          <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 ">
-            <div class="relative mx-auto mt-8 flex max-w-sm flex-col justify-between rounded-lg bg-gray-100 p-10 leading-snug text-gray-700 shadow">
-              <div class="-ml-4">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 ">
+            <div className="relative mx-auto mt-8 flex max-w-sm flex-col justify-between rounded-lg bg-gray-100 p-10 leading-snug text-gray-700 shadow">
+              <div className="-ml-4">
                 <svg
-                  class="w-8 text-primary opacity-25"
+                  className="w-8 text-primary opacity-25"
                   xmlns="http://www.w3.org/2000/svg"
                   shape-rendering="geometricPrecision"
                   text-rendering="geometricPrecision"
                   image-rendering="optimizeQuality"
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   viewBox="0 0
                                                                                                              640 640"
                   fill="currentColor"
@@ -120,40 +120,40 @@ Konsultuoju visais gyvų ir mirusių asmenų teismo medicinos tyrimų klausimais
                   <path d="M557.133 561.704H442.128c-44.256 0-80.458-36.19-80.458-80.446 0-165.58-42.32-347.485 160.656-399.418 91.95-23.516 115.915 77.753 18.119 84.745-59.647 4.276-71.293 42.804-73.147 101.068h92.269c44.256 0 80.458 36.201 80.458 80.458v130.702c0 45.591-37.3 82.89-82.891 82.89zm-358.032 0H84.096c-44.256 0-80.446-36.19-80.446-80.446 0-165.58-42.331-347.485 160.644-399.418 91.95-23.516 115.915 77.753 18.118 84.745-59.646 4.276-71.292 42.804-73.146 101.068h92.269c44.256 0 80.457 36.201 80.457 80.458v130.702c0 45.591-37.3 82.89-82.89 82.89z" />
                 </svg>
               </div>
-              <div class="mt-2 text-primary">
+              <div className="mt-2 text-primary">
                 Atsakingas, išmanantis, supratingas, nuoširdus, sąžiningas,
                 atsidavęs specialistas. Šiltas žmogus. Mums pasisekė, kad mums
                 rekomendavo konsultuotis su šiuo puiku specialistu. Gavome
                 atsakymus į visus klausimus. Ačiū.
               </div>
               <div>
-                <div class="mx-auto my-8 w-full border border-primary"></div>
-                <div class="flex items-center">
+                <div className="mx-auto my-8 w-full border border-primary"></div>
+                <div className="flex items-center">
                   <div>
                     <Image
-                      class="rounded-full border-2 border-primary"
+                      className="rounded-full border-2 border-primary"
                       width={45}
                       height={45}
                       src="/profile.svg"
                     />
                   </div>
-                  <div class="ml-4">
-                    <div class="font-bold">Ž. J.</div>
-                    <div class="mt-1 text-sm text-primary">Jonavos r.</div>
+                  <div className="ml-4">
+                    <div className="font-bold">Ž. J.</div>
+                    <div className="mt-1 text-sm text-primary">Jonavos r.</div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="mx-auto mt-8 flex max-w-sm flex-col justify-between rounded-lg bg-gray-100 p-10 leading-snug text-gray-700 shadow">
-              <div class="-ml-4">
+            <div className="mx-auto mt-8 flex max-w-sm flex-col justify-between rounded-lg bg-gray-100 p-10 leading-snug text-gray-700 shadow">
+              <div className="-ml-4">
                 <svg
-                  class="w-8 text-primary opacity-25"
+                  className="w-8 text-primary opacity-25"
                   xmlns="http://www.w3.org/2000/svg"
                   shape-rendering="geometricPrecision"
                   text-rendering="geometricPrecision"
                   image-rendering="optimizeQuality"
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   viewBox="0 0
                                                                                                              640 640"
                   fill="currentColor"
@@ -161,40 +161,40 @@ Konsultuoju visais gyvų ir mirusių asmenų teismo medicinos tyrimų klausimais
                   <path d="M557.133 561.704H442.128c-44.256 0-80.458-36.19-80.458-80.446 0-165.58-42.32-347.485 160.656-399.418 91.95-23.516 115.915 77.753 18.119 84.745-59.647 4.276-71.293 42.804-73.147 101.068h92.269c44.256 0 80.458 36.201 80.458 80.458v130.702c0 45.591-37.3 82.89-82.891 82.89zm-358.032 0H84.096c-44.256 0-80.446-36.19-80.446-80.446 0-165.58-42.331-347.485 160.644-399.418 91.95-23.516 115.915 77.753 18.118 84.745-59.646 4.276-71.292 42.804-73.146 101.068h92.269c44.256 0 80.457 36.201 80.457 80.458v130.702c0 45.591-37.3 82.89-82.89 82.89z" />
                 </svg>
               </div>
-              <div class="mt-2 text-primary">
+              <div className="mt-2 text-primary">
                 Labai vertiname Jūsų supratimą ir pagalbą dėl sužalojimo mirus
                 mūsų artimajam. Vertinam galimybę suprasti, o ne nešti
                 nežinomybės naštą. Ačiū už išsamią, suprantamą ir profesionalią
                 konsultaciją.
               </div>
               <div>
-                <div class="mx-auto my-8 w-full border border-primary"></div>
-                <div class="flex items-center">
+                <div className="mx-auto my-8 w-full border border-primary"></div>
+                <div className="flex items-center">
                   <div>
                     <Image
-                      class="rounded-full border-2 border-primary"
+                      className="rounded-full border-2 border-primary"
                       width={45}
                       height={45}
                       src="/profile.svg"
                     />
                   </div>
-                  <div class="ml-4">
-                    <div class="font-bold">K. M.</div>
-                    <div class="mt-1 text-sm text-primary">Kauno r.</div>
+                  <div className="ml-4">
+                    <div className="font-bold">K. M.</div>
+                    <div className="mt-1 text-sm text-primary">Kauno r.</div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="mx-auto mt-8 flex max-w-sm flex-col justify-between rounded-lg bg-gray-100 p-10 leading-snug text-gray-700 shadow">
-              <div class="-ml-4">
+            <div className="mx-auto mt-8 flex max-w-sm flex-col justify-between rounded-lg bg-gray-100 p-10 leading-snug text-gray-700 shadow">
+              <div className="-ml-4">
                 <svg
-                  class="w-8 text-primary opacity-25"
+                  className="w-8 text-primary opacity-25"
                   xmlns="http://www.w3.org/2000/svg"
                   shape-rendering="geometricPrecision"
                   text-rendering="geometricPrecision"
                   image-rendering="optimizeQuality"
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   viewBox="0 0
                                                                                                              640 640"
                   fill="currentColor"
@@ -202,24 +202,24 @@ Konsultuoju visais gyvų ir mirusių asmenų teismo medicinos tyrimų klausimais
                   <path d="M557.133 561.704H442.128c-44.256 0-80.458-36.19-80.458-80.446 0-165.58-42.32-347.485 160.656-399.418 91.95-23.516 115.915 77.753 18.119 84.745-59.647 4.276-71.293 42.804-73.147 101.068h92.269c44.256 0 80.458 36.201 80.458 80.458v130.702c0 45.591-37.3 82.89-82.891 82.89zm-358.032 0H84.096c-44.256 0-80.446-36.19-80.446-80.446 0-165.58-42.331-347.485 160.644-399.418 91.95-23.516 115.915 77.753 18.118 84.745-59.646 4.276-71.292 42.804-73.146 101.068h92.269c44.256 0 80.457 36.201 80.457 80.458v130.702c0 45.591-37.3 82.89-82.89 82.89z" />
                 </svg>
               </div>
-              <div class="mt-2 text-primary">
+              <div className="mt-2 text-primary">
                 Tiesą sakant, dar nebuvome susidūrę su gydytoju, kuriam taip
                 rūpėjo. Esame dėkingi už konsultaciją.
               </div>
               <div>
-                <div class="mx-auto my-8 w-full border border-primary"></div>
-                <div class="flex items-center">
+                <div className="mx-auto my-8 w-full border border-primary"></div>
+                <div className="flex items-center">
                   <div>
                     <Image
-                      class="rounded-full border-2 border-primary"
+                      className="rounded-full border-2 border-primary"
                       width={45}
                       height={45}
                       src="/profile.svg"
                     />
                   </div>
-                  <div class="ml-4">
-                    <div class="font-bold">R. D. ir M. D.</div>
-                    <div class="mt-1 text-sm text-primary">Vilnius</div>
+                  <div className="ml-4">
+                    <div className="font-bold">R. D. ir M. D.</div>
+                    <div className="mt-1 text-sm text-primary">Vilnius</div>
                   </div>
                 </div>
               </div>
