@@ -1,14 +1,14 @@
-import Image from "next/image";
-import Divider from "@/components/Divider";
-import Link from "next/link";
+import Image from "next/image"
+import Divider from "@/components/Divider"
+import Link from "next/link"
 
 export default function GyvuAsmenuTryimai() {
   return (
-    <main>
-      <section className="hero my-16">
-        <div className="mx-auto  grid px-4 lg:grid-cols-12 lg:gap-8  xl:gap-0">
-          <div className="place-self-center px-4 py-8 text-center lg:col-span-7  lg:mr-auto lg:px-16 lg:py-32 lg:text-left">
-            <h1 className="mb-4 max-w-2xl text-5xl font-medium leading-normal tracking-wide text-secondary lg:leading-relaxed">
+    <main className="mx-auto px-4 lg:px-16">
+      <section className="hero my-16 ">
+        <div className="mx-auto  grid  lg:grid-cols-12 lg:gap-8  xl:gap-0">
+          <div className="place-self-centerpy-8 text-center lg:col-span-7  lg:mr-auto lg:py-32 lg:text-left">
+            <h1 className="max-w-2xl text-5xl font-medium leading-normal tracking-wide text-secondary lg:leading-relaxed">
               Gyvų asmenų teismo medicinos tyrimai
             </h1>
           </div>
@@ -16,8 +16,8 @@ export default function GyvuAsmenuTryimai() {
           <div className="relative flex h-[400px]  md:mx-auto md:w-1/2  lg:col-span-5  lg:h-auto lg:w-full">
             <Image
               fill
+              className="lg:object-right"
               style={{ objectFit: "contain" }}
-  
               src="/gyvu-asmenu-tyrimai.jpeg"
               alt="gregoire"
             />
@@ -25,7 +25,7 @@ export default function GyvuAsmenuTryimai() {
         </div>
       </section>
       <Divider />
-      <section className="services my-16 space-y-16 px-4 lg:px-16">
+      <section className="services my-16 space-y-16 ">
         <div className="flex flex-col lg:flex-row">
           <div className="flex w-80 items-center justify-between">
             <span className="text-xl font-medium tracking-wide text-secondary">
@@ -45,7 +45,7 @@ export default function GyvuAsmenuTryimai() {
           </div>
         </div>
         <div className="ml-4">
-          <ul className="mb-8 space-y-8 text-left text-secondary leading-loose">
+          <ul className="mb-8 space-y-8 text-left leading-loose text-secondary">
             <li className="flex items-center space-x-3">
               <svg
                 className="h-5 w-5 flex-shrink-0 text-blue-500"
@@ -202,7 +202,10 @@ export default function GyvuAsmenuTryimai() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span>Konsultuoju klausimais, susijusiais su kūno subjaurojimu, randais ir kt.</span>
+              <span>
+                Konsultuoju klausimais, susijusiais su kūno subjaurojimu,
+                randais ir kt.
+              </span>
             </li>
             <li className="flex items-center space-x-3">
               <svg
@@ -217,11 +220,13 @@ export default function GyvuAsmenuTryimai() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span>Konsultuoju klausimais, susijusiais su deontologiniais tyrimais.</span>
+              <span>
+                Konsultuoju klausimais, susijusiais su deontologiniais tyrimais.
+              </span>
             </li>
           </ul>
         </div>
       </section>
     </main>
-  );
+  )
 }

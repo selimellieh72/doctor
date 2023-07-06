@@ -1,13 +1,13 @@
-import Image from "next/image";
-import Divider from "@/components/Divider";
-import Link from "next/link";
+import Image from "next/image"
+import Divider from "@/components/Divider"
+import Link from "next/link"
 
-export default function GyvuAsmenuTryimai() {
+export default function Kontaktai() {
   return (
-    <main>
+    <main className="mx-auto px-4 lg:px-16">
       <section className="my-16">
-        <div className="mx-auto  grid px-4 lg:grid-cols-12 lg:gap-8  xl:gap-0">
-          <div className="place-self-center px-4 py-8 text-center lg:col-span-7  lg:mr-auto lg:px-16 lg:py-32 lg:text-left">
+        <div className="mx-auto  grid  lg:grid-cols-12 lg:gap-8  xl:gap-0">
+          <div className="place-self-center py-8 text-center lg:col-span-7  lg:mr-auto  lg:py-32 lg:text-left">
             <h1 className="mb-4 max-w-2xl text-5xl font-medium leading-normal tracking-wide text-secondary lg:leading-relaxed">
               Kontaktai
             </h1>
@@ -19,8 +19,8 @@ export default function GyvuAsmenuTryimai() {
           <div className="relative flex h-[400px]  md:mx-auto md:w-1/2  lg:col-span-5  lg:h-auto lg:w-full">
             <Image
               fill
+              className="lg:object-right"
               style={{ objectFit: "contain" }}
-          
               src="/kontaktai.webp"
               alt="gregoire"
             />
@@ -28,7 +28,7 @@ export default function GyvuAsmenuTryimai() {
         </div>
       </section>
       <Divider />
-      <section className="services my-16 space-y-8 px-4 lg:px-16">
+      <section className="services my-16 space-y-8">
         <div className="flex flex-col lg:flex-row">
           <div className="flex w-80 items-center justify-between">
             <span className="text-xl font-medium tracking-wide text-secondary">
@@ -66,8 +66,8 @@ export default function GyvuAsmenuTryimai() {
             </span>
           </div>
         </div>
-        <div className="contact-us pt-4 flex lg:space-x-4">
-          <div className=" hidden lg:block w-2/5  bg-secondary px-4 py-10">
+        <div className="contact-us flex pt-4 lg:space-x-4">
+          <div className=" hidden w-2/5 bg-secondary  px-4 py-10 lg:block">
             <div className="flex w-44 items-center justify-between">
               <span className="text-xl font-medium tracking-wide text-primary">
                 Susisiekite
@@ -80,10 +80,10 @@ export default function GyvuAsmenuTryimai() {
               />
             </div>
           </div>
-          <div className=" w-full ml-0  lg:w-3/5 bg-secondary py-10 text-primary">
-          <span className="text-center table mb-8 mx-auto lg:hidden text-xl font-medium tracking-wide text-primary">
-                Susisiekite
-              </span>
+          <div className=" ml-0 w-full  bg-secondary py-10 text-primary lg:w-3/5">
+            <span className="mx-auto mb-8 table text-center text-xl font-medium tracking-wide text-primary lg:hidden">
+              Susisiekite
+            </span>
             <form className=" mx-auto w-3/5">
               <div className="mb-4 w-full">
                 <label className="font-medium " htmlFor="name">
@@ -92,39 +92,39 @@ export default function GyvuAsmenuTryimai() {
                 <input
                   required
                   id="name"
-                  className="mt-2 block h-10 w-full border-b focus:border hover:border border-primary bg-transparent p-4 outline-none invalid:border-red-700"
+                  className="mt-2 block h-10 w-full border-b border-primary bg-transparent p-4 outline-none invalid:border-red-700 hover:border focus:border"
                 ></input>
               </div>
               <div className="mb-4 w-full">
                 <label className="font-medium " htmlFor="name">
-                El. paštas *
+                  El. paštas *
                 </label>
                 <input
                   required
                   id="name"
-                  className="mt-2 block h-10 w-full border-b focus:border hover:border border-primary bg-transparent p-4 outline-none invalid:border-red-700"
+                  className="mt-2 block h-10 w-full border-b border-primary bg-transparent p-4 outline-none invalid:border-red-700 hover:border focus:border"
                 ></input>
               </div>
               <div className="mb-4 w-full">
                 <label className="font-medium " htmlFor="name">
-                Tekstas
+                  Tekstas
                 </label>
                 <input
-                
                   id="name"
-                  className="mt-2 block h-10 w-full border-b focus:border hover:border border-primary bg-transparent p-4 outline-none"
+                  className="mt-2 block h-10 w-full border-b border-primary bg-transparent p-4 outline-none hover:border focus:border"
                 ></input>
-                  <button type="submit" href="/apie-mane" className="inline-flex items-center justify-center px-12 py-2 mr-3 text-base font-medium text-center text-secondary  bg-primary focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 rounded-xl mt-8 invalid:border-red-700">
+                <button
+                  type="submit"
+                  href="/apie-mane"
+                  className="focus:ring-primary-300 dark:focus:ring-primary-900 mr-3 mt-8 inline-flex items-center justify-center rounded-xl bg-primary px-12  py-2 text-center text-base font-medium text-secondary invalid:border-red-700 focus:ring-4"
+                >
                   Siųsti
-                    
                 </button>
               </div>
-              
-              
             </form>
           </div>
         </div>
       </section>
     </main>
-  );
+  )
 }

@@ -1,10 +1,10 @@
-import Image from "next/image";
+import Image from "next/image"
 
 export default function ApiMane() {
   return (
-    <main>
-      <section className="hero my-16">
-        <div className="mx-auto grid max-w-screen-xl px-4 lg:grid-cols-12 lg:gap-8  xl:gap-0">
+    <main className="px-4 lg:px-16">
+      <section className="hero mx-auto my-16 ">
+        <div className=" grid lg:grid-cols-12 lg:gap-8  xl:gap-0">
           <div className="place-self-center text-center lg:col-span-7  lg:mr-auto lg:text-left">
             <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight text-secondary  ">
               Gregoire ABI CHAKER
@@ -48,9 +48,10 @@ export default function ApiMane() {
             </p>
           </div>
 
-          <div className="relative flex h-[400px] shadow md:mx-auto md:w-1/2  lg:col-span-5  lg:h-auto lg:w-full">
+          <div className="relative flex h-[400px]  md:mx-auto md:w-1/2  lg:col-span-5  lg:h-auto lg:w-full">
             <Image
               fill
+              className="lg:object-right"
               style={{ objectFit: "contain" }}
               src="/Apie mane.jpg"
               alt="gregoire"
@@ -59,5 +60,5 @@ export default function ApiMane() {
         </div>
       </section>
     </main>
-  );
+  )
 }
