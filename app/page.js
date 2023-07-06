@@ -59,8 +59,7 @@ Konsultuoju visais gyvų ir mirusių asmenų teismo medicinos tyrimų klausimais
               Konsultacijos ir tyrimai
             </span>
             <p className="mb-6 max-w-2xl font-light leading-relaxed text-secondary md:text-lg lg:mb-8 lg:text-xl">
-              Konsultuoju visais gyvų ir mirusių asmenų teismo medicinos tyrimų
-              klausimais bei juos atlieku.
+              Visą paslaugų sąrašą rasite paspaudę ant dominančios srities.
             </p>
           </div>
         </div>
