@@ -1,6 +1,9 @@
 import Image from "next/image"
 import Divider from "@/components/Divider"
-import Link from "next/link"
+
+export const metadata = {
+  title: "Kontaktai",
+}
 
 export default function Kontaktai() {
   return (

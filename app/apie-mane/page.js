@@ -1,12 +1,16 @@
 import Image from "next/image"
 
+export const metadata = {
+  title: "Apie Mane",
+}
+
 export default function ApiMane() {
   return (
     <main className="px-4 lg:px-16">
       <section className="hero mx-auto my-16 ">
         <div className=" grid lg:grid-cols-12 lg:gap-8  xl:gap-0">
           <div className="place-self-center text-center lg:col-span-7  lg:mr-auto lg:text-left">
-            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight text-secondary  ">
+            <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-secondary  ">
               Gregoire ABI CHAKER
             </h1>
             <p className="mb-6 max-w-2xl font-light text-secondary md:text-lg lg:mb-8 lg:text-xl">

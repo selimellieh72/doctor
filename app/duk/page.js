@@ -2,6 +2,10 @@ import Image from "next/image"
 import Divider from "@/components/Divider"
 import Link from "next/link"
 
+export const metadata = {
+  title: "DUK",
+}
+
 export default function DUK() {
   return (
     <main className="mx-auto px-4 lg:px-16">

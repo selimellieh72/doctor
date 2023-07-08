@@ -54,7 +54,7 @@ Konsultuoju visais gyvų ir mirusių asmenų teismo medicinos tyrimų klausimais
               width={40}
             />
           </div>
-          <div className="flex flex-1 flex-col items-start justify-center gap-2 lg:items-center">
+          <div className="flex flex-1 flex-col items-start justify-center gap-2 lg:ml-24">
             <span className="text-xl font-medium tracking-wide text-secondary">
               Konsultacijos ir tyrimai
             </span>

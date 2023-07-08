@@ -2,12 +2,16 @@ import Image from "next/image"
 import Divider from "@/components/Divider"
 import Link from "next/link"
 
+export const metadata = {
+  title: "Gyvų asmenų tyrimai",
+}
+
 export default function GyvuAsmenuTryimai() {
   return (
     <main className="mx-auto px-4 lg:px-16">
       <section className="hero my-16 ">
         <div className="mx-auto  grid  lg:grid-cols-12 lg:gap-8  xl:gap-0">
-          <div className="place-self-centerpy-8 text-center lg:col-span-7  lg:mr-auto lg:py-32 lg:text-left">
+          <div className="place-self-center py-8 text-center lg:col-span-7  lg:mr-auto lg:py-32 lg:text-left">
             <h1 className="max-w-2xl text-5xl font-medium leading-normal tracking-wide text-secondary lg:leading-relaxed">
               Gyvų asmenų teismo medicinos tyrimai
             </h1>
@@ -38,7 +42,7 @@ export default function GyvuAsmenuTryimai() {
               width={40}
             />
           </div>
-          <div className="flex flex-1 flex-col items-start justify-center gap-2 lg:items-center">
+          <div className="flex w-1/4 flex-col items-start justify-center gap-2 lg:items-end">
             <span className="text-xl font-medium tracking-wide text-secondary">
               Paslaugos:
             </span>
