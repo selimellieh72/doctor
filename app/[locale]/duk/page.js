@@ -1,19 +1,29 @@
 import Image from "next/image"
 import Divider from "@/components/Divider"
 import Link from "next/link"
+import { useTranslations } from "next-intl"
+import { getTranslator } from "next-intl/server"
 
-export const metadata = {
-  title: "DUK",
+export async function generateMetadata({ params: { locale } }) {
+  // While the `locale` is required, the namespace is optional and
+  // identical to the parameter that `useTranslations` accepts.
+  const t = await getTranslator(locale, "DUK")
+
+  return {
+    title: t("page_title"),
+  }
 }
 
 export default function DUK() {
+  const t = useTranslations("DUK")
+
   return (
     <main className="mx-auto px-4 lg:px-16">
       <section className="hero my-16">
         <div className="mx-auto  grid lg:grid-cols-12 lg:gap-8  xl:gap-0">
           <div className="place-self-center py-8 text-center lg:col-span-7  lg:mr-auto lg:py-32 lg:text-left">
             <h1 className="mb-4 max-w-2xl text-5xl font-medium leading-normal tracking-wide text-secondary lg:leading-relaxed">
-              Dažniausiai užduodami klausimai (DUK)
+              {t("title")}
             </h1>
           </div>
 
@@ -41,11 +51,10 @@ export default function DUK() {
           <div className="space-y-4">
             <details className="w-full rounded-lg border border-secondary">
               <summary className="focus-visible:ri px-4 py-6 hover:cursor-pointer focus:outline-none">
-                Ar konsultacijos vyksta ir išvados teikiamos lietuvių kalba?
+                {t("question1")}
               </summary>
               <p className="-mt-4 ml-4 px-4 py-6 pt-0 dark:text-gray-400">
-                Konsultacijos bei visi pateikiami dokumentai klientams yra
-                lietuvių kalba.
+                {t("answer1")}
               </p>
             </details>
             <details
@@ -53,12 +62,10 @@ export default function DUK() {
               open=""
             >
               <summary className="focus-visible:ri px-4 py-6 hover:cursor-pointer focus:outline-none">
-                Kur vyksta konsultacijos?
+                {t("question2")}
               </summary>
               <p className="-mt-4 ml-4 px-4 py-6 pt-0 dark:text-gray-400">
-                Dėl konsultacijos prašome susiekti nurodytais kontaktais.
-                Abipusiai priimtinas laikas ir vieta yra suderinami
-                individualiai.
+                {t("answer2")}
               </p>
             </details>
             <details
@@ -66,11 +73,10 @@ export default function DUK() {
               open=""
             >
               <summary className="focus-visible:ri px-4 py-6 hover:cursor-pointer focus:outline-none">
-                Kokios paslaugų kainos?
+                {t("question3")}
               </summary>
               <p className="-mt-4 ml-4 px-4 py-6 pt-0 dark:text-gray-400">
-                Paslaugų kaina yra sutartinė – nustatoma, atsižvelgiant į
-                konkretų atvejį ir jo aplinkybes.
+                {t("answer3")}
               </p>
             </details>
             <details
@@ -78,12 +84,10 @@ export default function DUK() {
               open=""
             >
               <summary className="focus-visible:ri px-4 py-6 hover:cursor-pointer focus:outline-none">
-                Kuo naudingos nepriklausomo teismo medicinos eksperto paslaugos?
+                {t("question4")}
               </summary>
               <p className="-mt-4 ml-4 px-4 py-6 pt-0 dark:text-gray-400">
-                Nepriklausomo teismo medicinos eksperto Gregoire Abi Chaker
-                konsultacijos padeda asmenims, jų artimiesiems, advokatams
-                suprasti jų konkretaus atvejo teismo medicinos aspektus.
+                {t("answer4")}
               </p>
             </details>
             <details
@@ -91,27 +95,10 @@ export default function DUK() {
               open=""
             >
               <summary className="focus-visible:ri px-4 py-6 hover:cursor-pointer focus:outline-none">
-                Kokios konsultacijos (paslaugos), susijusios su gyvais
-                asmenimis, yra teikiamos?
+                {t("question5")}
               </summary>
               <p className="-mt-4 ml-4 px-4 py-6 pt-0 dark:text-gray-400">
-                Konsultacijos metu bei atlikdamas gyvų asmenų teismo medicinos
-                tyrimus nepriklausomas teismo medicinos ekspertas Gregoire Abi
-                Chaker gali atsakyti į klausimus, susijusius su sužalojimais,
-                sužalojimų padarymo būdu (traumos mechanizmu, panaudota jėga,
-                kt.), sužalojimų padarymo laiku, sveikatos sutrikdymo mastu.
-                Konsultacijos metu bei atlikdamas gyvų asmenų teismo medicinos
-                tyrimus nepriklausomas teismo medicinos ekspertas Gregoire Abi
-                Chaker gali taip pat atsakyti į klausimus: ar po gydymo pabaigos
-                gali keistis sveikatos sutrikdymo mastas? Ar dėl traumos
-                patirtos sveikatos būklės pasekmės (sužalojimų liekamieji
-                reiškiniai) gali keistis sveikatos sutrikdymo mastas? Ar visada
-                trauma palieka žymių? Kokiais atvejais trauma gali nepalikti
-                žymių? Ar visi sužalojimai sukelia skausmą? Po kiek laiko po
-                traumos gali atsirasti skausmas? Kokiais atvejais asmuo gali
-                nejausti skausmo? Ar skausmas gali atsirasti tik dėl traumos, ar
-                ir dėl kitų priežasčių? Bei į kitus klausimus, reikalaujančius
-                specialiųjų žinių.
+                {t("answer5")}
               </p>
             </details>
             <details
@@ -119,14 +106,10 @@ export default function DUK() {
               open=""
             >
               <summary className="focus-visible:ri px-4 py-6 hover:cursor-pointer focus:outline-none">
-                Ar teikiamos konsultacijos, susijusios su įtariamu lytiniu
-                nusikaltimu?
+                {t("question6")}
               </summary>
               <p className="-mt-4 ml-4 px-4 py-6 pt-0 dark:text-gray-400">
-                Konsultacijos metu bei atlikdamas gyvų asmenų teismo medicinos
-                tyrimus nepriklausomas teismo medicinos ekspertas Gregoire Abi
-                Chaker gali atsakyti į klausimus, susijusius su įtariamu lytiniu
-                nusikaltimu (išžaginimu ir kt.).
+                {t("answer6")}
               </p>
             </details>
             <details
@@ -134,15 +117,10 @@ export default function DUK() {
               open=""
             >
               <summary className="focus-visible:ri px-4 py-6 hover:cursor-pointer focus:outline-none">
-                Ar teikiamos konsultacijos, susijusios su kūno subjaurojimu,
-                randais ir pan.?
+                {t("question7")}
               </summary>
               <p className="-mt-4 ml-4 px-4 py-6 pt-0 dark:text-gray-400">
-                Nepriklausomas teismo medicinos ekspertas Gregoire Abi Chaker
-                taip pat konsultuoja klausimais, susijusiais su nepataisomu kūno
-                subjaurojimu, randais – jų padarymo būdu, jų padarymo laiku,
-                kokį sveikatos sutrikdymo mastą jie atitinka, kokia jų
-                pašalinimo galimybė.
+                {t("answer7")}
               </p>
             </details>
             <details
@@ -150,28 +128,10 @@ export default function DUK() {
               open=""
             >
               <summary className="focus-visible:ri px-4 py-6 hover:cursor-pointer focus:outline-none">
-                Kokios konsultacijos (paslaugos), susijusios su mirusiais
-                asmenimis, yra teikiamos?
+                {t("question8")}
               </summary>
               <p className="-mt-4 ml-4 px-4 py-6 pt-0 dark:text-gray-400">
-                Konsultacijos metu bei atlikdamas mirusiųjų asmenų teismo
-                medicinos tyrimus nepriklausomas teismo medicinos ekspertas
-                Gregoire Abi Chaker gali atsakyti į klausimus, susijusius su
-                mirties priežastimi, mirties laiku, kūno sužalojimais –
-                sužalojimų padarymo būdu (mechanizmu), sužalojimų padarymo
-                laiku, sveikatos sutrikdymo mastu. Konsultacijos metu bei
-                atlikdamas mirusiųjų asmenų teismo medicinos tyrimus
-                nepriklausomas teismo medicinos ekspertas Gregoire Abi Chaker
-                gali taip pat atsakyti į kitus klausimus, susijusius kūne
-                nustatytų sužalojimų įtaka mirčiai, ar artimasis patyrė skausmą
-                prieš mirtį, ar mirtis buvo greita, ar buvo įmanoma išgelbėti
-                gyvybę, jei pagalba būtų suteikta laiku, ar gydymas buvo
-                tinkamas ir (ar) gydymas bei gydymo trūkumai neturėjo įtakos
-                mirčiai, ar mirusiojo kūne yra alkoholis ir (arba) kitos
-                narkotinės medžiagos, bei ar tai turėjo įtakos mirčiai.
-                Nepriklausomas teismo medicinos ekspertas Gregoire Abi Chaker
-                gali atsakyti ir į kitus klausimus, susijusius su mirusiųjų
-                tyrimais.
+                {t("answer8")}
               </p>
             </details>
             <details
@@ -179,14 +139,10 @@ export default function DUK() {
               open=""
             >
               <summary className="focus-visible:ri px-4 py-6 hover:cursor-pointer focus:outline-none">
-                Ar galite išduoti (išrašyti) mirties liudijimą?
+                {t("question9")}
               </summary>
               <p className="-mt-4 ml-4 px-4 py-6 pt-0 dark:text-gray-400">
-                Kai miršta artimas žmogus, šeimos gydytojas gali dėl įvairių
-                priežasčių atsisakyti išduoti medicininį mirties liudijimą.
-                Tokiais ir kitais atvejais, nepriklausomas teismo medicinos
-                ekspertas Gregoire Abi Chaker gali suteikti pagalbą, išrašyti
-                medicininį mirties liudijimą.
+                {t("answer9")}
               </p>
             </details>
             <details
@@ -194,18 +150,10 @@ export default function DUK() {
               open=""
             >
               <summary className="focus-visible:ri px-4 py-6 hover:cursor-pointer focus:outline-none">
-                Kokios konsultacijos (paslaugos), susijusios su alkoholiu,
-                girtumu, alkotesteriu ir reikalaujančios specialiųjų žinių, yra
-                teikiamos?
+                {t("question10")}
               </summary>
               <p className="-mt-4 ml-4 px-4 py-6 pt-0 dark:text-gray-400">
-                Nepriklausomas teismo medicinos ekspertas Gregoire Abi Chaker
-                konsultuoja visais klausimais susijusiais su alkoholiu: ar asmuo
-                vairavimo metu buvo blaivus? Ar asmuo vairavimo metu buvo
-                neblaivus? Ar alkotesterio parodymai tikslūs? Koks galėjo būti
-                girtumo laipsnis? Nepriklausomas teismo medicinos ekspertas
-                Gregoire Abi Chaker gali atsakyti ir į kitus su alkoholiu
-                susijusius klausimus, reikalaujančius specialiųjų žinių.
+                {t("answer10")}
               </p>
             </details>
           </div>

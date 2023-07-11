@@ -1,19 +1,28 @@
 import Image from "next/image"
 import Divider from "@/components/Divider"
 import Link from "next/link"
+import { useTranslations } from "next-intl"
+import { getTranslator } from "next-intl/server"
 
-export const metadata = {
-  title: "Gyvų asmenų tyrimai",
+export async function generateMetadata({ params: { locale } }) {
+  // While the `locale` is required, the namespace is optional and
+  // identical to the parameter that `useTranslations` accepts.
+  const t = await getTranslator(locale, "GyvuAsmenuTryimai")
+
+  return {
+    title: t("page_title"),
+  }
 }
 
 export default function GyvuAsmenuTryimai() {
+  const t = useTranslations("GyvuAsmenuTryimai")
   return (
     <main className="mx-auto px-4 lg:px-16">
       <section className="hero my-16 ">
         <div className="mx-auto  grid  lg:grid-cols-12 lg:gap-8  xl:gap-0">
           <div className="place-self-center py-8 text-center lg:col-span-7  lg:mr-auto lg:py-32 lg:text-left">
             <h1 className="max-w-2xl text-5xl font-medium leading-normal tracking-wide text-secondary lg:leading-relaxed">
-              Gyvų asmenų teismo medicinos tyrimai
+              {t("title")}
             </h1>
           </div>
 
@@ -31,9 +40,9 @@ export default function GyvuAsmenuTryimai() {
       <Divider />
       <section className="services my-16 space-y-16 ">
         <div className="flex flex-col lg:flex-row">
-          <div className="flex w-80 items-center justify-between">
+          <div className=" flex w-[21rem] items-center justify-between">
             <span className="text-xl font-medium tracking-wide text-secondary">
-              Konsultacijos ir tyrimai
+              {t("services_title")}
             </span>
             <Image
               className="hidden lg:block"
@@ -44,7 +53,7 @@ export default function GyvuAsmenuTryimai() {
           </div>
           <div className="flex w-1/4 flex-col items-start justify-center gap-2 lg:items-end">
             <span className="text-xl font-medium tracking-wide text-secondary">
-              Paslaugos:
+              {t("services_subtitle")}
             </span>
           </div>
         </div>
@@ -63,10 +72,7 @@ export default function GyvuAsmenuTryimai() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span>
-                Konsultuoju visais gyvų asmenų teismo medicinos tyrimų
-                klausimais
-              </span>
+              <span>{t("service1_title")}</span>
             </li>
             <li className="flex items-center space-x-3">
               <svg
@@ -81,10 +87,7 @@ export default function GyvuAsmenuTryimai() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span>
-                Atlieku gyvų asmenų teismo medicinos apžiūrą (abdukciją) bei
-                surašau specialisto išvadą
-              </span>
+              <span>{t("service2_title")}</span>
             </li>
             <li className="flex items-center space-x-3">
               <svg
@@ -99,10 +102,7 @@ export default function GyvuAsmenuTryimai() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span>
-                Nustatau sužalojimus, sužalojimų padarymo būdą, sužalojimų
-                padarymo laiką, sveikatos sutrikdymo mastą
-              </span>
+              <span>{t("service3_title")}</span>
             </li>
             <li className="flex items-center space-x-3">
               <svg
@@ -117,10 +117,7 @@ export default function GyvuAsmenuTryimai() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span>
-                Atlieku gyvų asmenų medicininių dokumentų analizę bei surašau
-                specialisto išvadą
-              </span>
+              <span>{t("service4_title")}</span>
             </li>
             <li className="flex items-center space-x-3">
               <svg
@@ -135,9 +132,7 @@ export default function GyvuAsmenuTryimai() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span>
-                Atlieku gyvų asmenų kitų specialistų surašytų dokumentų analizę
-              </span>
+              <span>{t("service5_title")}</span>
             </li>
             <li className="flex items-center space-x-3">
               <svg
@@ -152,12 +147,7 @@ export default function GyvuAsmenuTryimai() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span>
-                Konsultuoju klausimais, susijusiais su alkoholiu, girtumo
-                laipsniais, girtumo arba blaivumo nustatymu, alkotesterio
-                veikimo principais, alkotesterio parodymų patikimumu, kitais su
-                alkoholiu kilusiais klausimais
-              </span>
+              <span>{t("service6_title")}</span>
             </li>
             <li className="flex items-center space-x-3">
               <svg
@@ -172,11 +162,7 @@ export default function GyvuAsmenuTryimai() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span>
-                Konsultuoju klausimais, susijusiais su narkotinėmis medžiagomis,
-                apsvaigimu, narkotinių medžiagų radimu kraujyje, šlapime, kitais
-                su narkotinėmis medžiagomis kilusiais klausimais
-              </span>
+              <span>{t("service7_title")}</span>
             </li>
             <li className="flex items-center space-x-3">
               <svg
@@ -191,7 +177,7 @@ export default function GyvuAsmenuTryimai() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span>Konsultuoju gyvų asmenų lytinių būklių klausimais</span>
+              <span>{t("service8_title")}</span>
             </li>
             <li className="flex items-center space-x-3">
               <svg
@@ -206,10 +192,7 @@ export default function GyvuAsmenuTryimai() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span>
-                Konsultuoju klausimais, susijusiais su kūno subjaurojimu,
-                randais ir kt.
-              </span>
+              <span>{t("service9_title")}</span>
             </li>
             <li className="flex items-center space-x-3">
               <svg
@@ -224,9 +207,7 @@ export default function GyvuAsmenuTryimai() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span>
-                Konsultuoju klausimais, susijusiais su deontologiniais tyrimais.
-              </span>
+              <span>{t("service10_title")}</span>
             </li>
           </ul>
         </div>

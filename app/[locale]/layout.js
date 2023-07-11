@@ -13,10 +13,6 @@ export const metadata = {
   description: "Gregoire ABI CHAKER",
 }
 
-export function generateStaticParams() {
-  return [{ locale: "en" }, { locale: "de" }]
-}
-
 export default async function RootLayout({ children, params }) {
   const locale = useLocale()
 

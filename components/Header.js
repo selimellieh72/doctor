@@ -34,7 +34,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 z-50 w-full bg-secondary px-12 py-4 lg:py-6">
-      <div className="align-item mb-4 hidden justify-between bg-primary px-4 py-2 text-secondary lg:flex">
+      <div className="align-item mb-4 hidden items-center justify-between bg-primary px-4 py-2 text-secondary lg:flex">
         <span>{t("head_left_text")}</span>{" "}
         <span className="mx-2">
           Tel. <span className="text-secondary">+370 640 36369</span>

@@ -1,5 +1,6 @@
 {
   "Home": {
+    "page_title": "Gregoire ABI CHAKER",
     "title": "Forensic consulting services",
     "title_description": "",
     "cta": "ABOUT ME",
@@ -38,5 +39,60 @@
     "title": "Gregoire ABI CHAKER",
     "subtitle": "Dr. Gregoire Abi Chaker is a forensic medical expert, with more than 20 years of experience.",
     "description": "Dr. <span class=\"font-bold\">Gregoire Abi Chaker</span> is a private, independant forensic medical expert (included in the list of forensic experts of the Republic of Lithuania (<a class=\"text-blue-400\" href=\"https://shorturl.at/aLST5\">https://shorturl.at/aLST5</a>), who has the qualification to perform examinations of live and dead persons, forensic medicine doctor&#39;s license (No. MPL-09604). Dr. <span class=\"font-bold\">Gregoire Abi Chaker</span> has a work experience in the field of forensic medicine since 1999.<br/><br/>Forensic medical expert <span class=\"font-bold\">Dr. Gregoire Abi Chaker</span> advises on all forensic issuesand provides reports (expert opinion), his special knowledge is based on many years of work practice, the principle of objectivity, comprehensibility andattentiveness of the global scientific literature. Forensic medical expert <span class=\"font-bold\">Dr. Gregoire Abi Chaker</span> has more than 20 years of work experience in Lithuania inthe field of forensic medicine, has performed more than 3,000 forensic examinations of the dead (autopsies) and more than 5,000 forensic examinations of living persons."
+  },
+  "GyvuAsmenuTryimai": {
+    "page_title": "Clinical forensic medicine",
+    "title": "Clinical forensic medicine",
+    "services_title": "Forensic medical consulting",
+    "services_subtitle": "Services:",
+    "service1_title": "All issues of forensic medical examinations of living persons",
+    "service2_title": "Forensic medical examination (abduction) of living persons and write a forensic report;",
+    "service3_title": "Determination of the injuries, the method of inflicting the injuries, the time of inflicting the injuries, the extent of the health impairment",
+    "service4_title": "Analyzing the medical documents of living persons and write a forensic report",
+    "service5_title": "Analyzing the opinion, the forensic reports of other specialists",
+    "service6_title": "All issues related to alcohol, Driving under influence of alcohol (DUIA), levels of intoxication, determination of drunkenness or sobriety, principles of breathalyzer operation, reliability of breathalyzer readings, and other issues related to alcohol",
+    "service7_title": "All issues related to drugs, Driving under influence of drugs (DUID), finding drugs in blood, urine, and other issues related to drugs",
+    "service8_title": "Sexual assault",
+    "service9_title": "Issues related to body disfigurement, scars, etc.",
+    "service10_title": "Issues related to medical malpractice"
+  },
+  "MirusiuAsmenuTyrimai": {
+    "page_title": "Forensic pathology",
+    "title": "Forensic pathology",
+    "services_title": "Forensic medical consulting",
+    "services_subtitle": "Services:",
+    "service1_title": "All issues of forensic pathology",
+    "service2_title": "Forensic examination (autopsy) of deceased persons and write a forensic report",
+    "service3_title": "Analyzing the medical documents of deceased persons and write a forensic report",
+    "service4_title": "Issuing certificate of death",
+    "service5_title": "Issues related to the cause of death, time of death, injuries to the dead body (nature of injuries, method of infliction, time of infliction and what degree of health impairment the injuries correspond to)",
+    "service6_title": "Issues related to alcohol, drugs",
+    "service7_title": "Issues related to medical malpractice",
+    "service8_title": null
+  },
+  "DUK": {
+    "page_title": "FAQ",
+    "title": "Frequently Asked Questions (FAQ)",
+    "question1": "Are consultations and forensic reports presented in Lithuanian?",
+    "answer1": "Consultations and all documents provided to clients, including the forensicreports, are in Lithuanian.",
+    "question2": "Where do the consultations take place?",
+    "answer2": "For consultation, please contact Dr. Abi Chaker. A mutually acceptable time and place is agreed upon individually.",
+    "question3": "What are the services prices?",
+    "answer3": "The price of the services is contractual - it is determined based on the specific case and its circumstances.",
+    "question4": "What are the benefits of the services of the private forensic medical expertGregoire Abi Chaker?",
+    "answer4": "Consultations by private forensic expert Gregoire Abi Chaker help individuals,their relatives, and lawyers understand the forensic aspects of their specificcase",
+    "question5": "What consultations (services) related to living persons are provided?",
+    "answer5": "During the consultation and conducting forensic examinations of living persons,the private forensic medical expert Gregoire Abi Chaker can answer questions related to injuries, the method of injury (mechanism of injury, the force usedto sustain injury, etc.), the time of injury, and the extent of healthimpairment. During the consultation and conducting forensic examinations ofliving persons, the private forensic medical expert Gregoire Abi Chaker can alsoanswer the questions: can the extent of the health impairment change after theend of the treatment? Can the consequences of the health condition experienceddue to the injury (residual effects of the injuries) change the extent of thehealth impairment? Does trauma always has residual effects on the health ofindividual? In what cases trauma has no residual effects on the health ofindividual? Do all injuries cause pain? How long after an injury can pain occur?In what cases can a person does not feel pain? Can the pain be caused only bytrauma? The private forensic medical expert Gregoire Abi Chaker also answersother questions that require special knowledge.",
+    "question6": "Does the private forensic medical expert Gregoire Abi Chaker consults cases of sexual assaults?",
+    "answer6": "During the consultation and conducting forensic examinations of living persons,the private forensic medical expert Gregoire Abi Chaker answers questions related to cases of sexual assaults (rape, etc.).",
+
+    "question7": "Does the private forensic medical expert Gregoire Abi Chaker consults cases related to body disfigurement, scars, etc.?",
+    "answer7": "The private forensic medical expert Gregoire Abi Chaker provides consultation onissues related to irreparable disfigurement, scars, how they were sustained,when they were sustained, what is the extent of health impairment do theycorrespond to, what is the possibility of their removal, etc.",
+    "question8": "What consultations (services) about death are provided?",
+    "answer8": "During the consultation and conducting forensic examinations of deceasedpersons, private forensic medical expert Gregoire Abi Chaker can answerquestions related to the cause of death, time of death, body injuries -biomechanics of injury, time of injury, etc. During the consultation and afterconducting the forensic examinations of deceased persons, the private forensicmedical expert Gregoire Abi Chaker can also answer other questions related tothe impact of the injuries found in the body on the deceased, whether thedeceased experienced pain before death, how long could he be alive aftersustaining the injuries, whether it was possible to save his life if help wasprovided in a timely manner, whether the treatment was adequate and/or thetreatment and lack of treatment did not contribute to the death, whether thedeceased was under the the influence of alcohol and/or other drugs at the timeof death, and whether alcohol and/or other drugs contributed to the death. Theprivate forensic medical expert Gregoire Abi Chaker also answers otherquestions that require special knowledge.",
+    "question9": "Can the private forensic medical expert Gregoire Abi Chaker issue (write out) a death certificate?",
+    "answer9": "When a beloved one dies, for various reasons the family doctor may refuse toissue a death certificate. In such and other cases, the private forensic medicalexpert Gregoire Abi Chaker can provide assistance and issue a certificate ofdeath.",
+    "question10": "What consultations (services) related to alcohol, drunkenness, and breathalyzer can the private forensic medical expert Gregoire Abi Chaker provide?",
+    "answer10": "The private forensic medical expert Gregoire Abi Chaker provides consultation onall issues related to alcohol: was the person sober while driving? Was theperson drunk while driving? Are breathalyzer readings accurate? What was thedegree of drunkenness? The private forensic medical expert Gregoire Abi Chakercan also answer other alcohol-related questions that require special knowledge."
   }
 }

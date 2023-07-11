@@ -3,6 +3,17 @@ import Divider from "@/components/Divider"
 import { useTranslations } from "next-intl"
 
 import Link from "next/link"
+import { getTranslator } from "next-intl/server"
+
+export async function generateMetadata({ params: { locale } }) {
+  // While the `locale` is required, the namespace is optional and
+  // identical to the parameter that `useTranslations` accepts.
+  const t = await getTranslator(locale, "Home")
+
+  return {
+    title: t("page_title"),
+  }
+}
 
 export default function Home() {
   const t = useTranslations("Home")

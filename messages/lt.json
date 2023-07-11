@@ -1,5 +1,6 @@
 {
   "Home": {
+    "page_title": "Gregoire ABI CHAKER",
     "title": "Profesionalios teismo medicinos paslaugos",
     "title_description": "Konsultuoju visais gyvų ir mirusių asmenų teismo medicinos tyrimų klausimais bei juos atlieku.",
     "cta": "APIE MANE",
@@ -38,5 +39,59 @@
     "title": "Gregoire ABI CHAKER",
     "subtitle": "Teismo medicinos ekspertas, gydytojas, turintis daugiau nei 20 metų patirties.",
     "description": "Teismo medicinos gydytojas <span class=\" font-bold\">Gregoire ABI CHAKER</span> yranepriklausomas teismo medicinos ekspertas, privatus teismoekspertas (įtrauktas į Lietuvos Respublikos teismo ekspertų sąrašą <a class=\" text-blue-400\" href=\"https://shorturl.at/aLST5\">https://shorturl.at/aLST5</a>), turintis aukštąjį universitetinį medicininį išsilavinimą,teismo medicinos gydytojo specialybę, kvalifikaciją atlikti gyvųir mirusių asmenų tyrimus, teismo medicinos gydytojo licenciją(Nr. MPL-09604). Darbo teismo medicinos srityje stažas nuo 1999metų.<br /><br/>Nepriklausomas teismo medicinos ekspertas konsultuoja visaisteismo medicinos klausimais bei pateikia konsultacines išvadas(specialisto išvadas). Ekspertas yra kompetentingas, jo specialiosžinios yra pagrįstos ilgamete darbo praktika, pasaulinės mokslinėsliteratūros, objektyvumo, supratingumo bei atidumo principais.Teismo medicinos gydytojas turi daugiau nei 20 metų darbopatirties Lietuvoje teismo medicinos srityje. Yra atlikęs daugiaunei 3 000 mirusiųjų tyrimų (autopsijų) bei daugiau nei 5 000 gyvųasmenų tyrimų."
+  },
+  "GyvuAsmenuTryimai": {
+    "page_title": "Gyvų asmenų tyrimai",
+    "title": "Gyvų asmenų teismo medicinos tyrimai",
+    "services_title": "Konsultacijos ir tyrimai",
+    "services_subtitle": "Paslaugos:",
+    "service1_title": "Konsultuoju visais gyvų asmenų teismo medicinos tyrimų klausimais",
+    "service2_title": "Atlieku gyvų asmenų teismo medicinos apžiūrą (abdukciją) bei surašau specialisto išvadą",
+    "service3_title": "Nustatau sužalojimus, sužalojimų padarymo būdą, sužalojimų padarymo laiką, sveikatos sutrikdymo mastą",
+    "service4_title": "Atlieku gyvų asmenų medicininių dokumentų analizę bei surašau specialisto išvadą",
+    "service5_title": "Atlieku gyvų asmenų kitų specialistų surašytų dokumentų analizę",
+    "service6_title": "Konsultuoju klausimais, susijusiais su alkoholiu, girtumo laipsniais, girtumo arba blaivumo nustatymu, alkotesterio veikimo principais, alkotesterio parodymų patikimumu, kitais su alkoholiu kilusiais klausimais",
+    "service7_title": "Konsultuoju klausimais, susijusiais su narkotinėmis medžiagomis, apsvaigimu, narkotinių medžiagų radimu kraujyje, šlapime, kitais su narkotinėmis medžiagomis kilusiais klausimais",
+    "service8_title": "Konsultuoju gyvų asmenų lytinių būklių klausimais",
+    "service9_title": "Konsultuoju klausimais, susijusiais su kūno subjaurojimu, randais ir kt.",
+    "service10_title": "Konsultuoju klausimais, susijusiais su deontologiniais tyrimais."
+  },
+  "MirusiuAsmenuTyrimai": {
+    "page_title": "Mirusių asmenų tyrimai",
+    "title": "Mirusių asmenų teismo medicinos tyrimai",
+    "services_title": "Konsultacijos ir tyrimai",
+    "services_subtitle": "Paslaugos:",
+    "service1_title": "Konsultuoju visais mirusių asmenų teismo medicinos tyrimų klausimais",
+    "service2_title": "Atlieku mirusių asmenų teismo medicinos tyrimą (autopsiją) bei surašau specialisto išvadą",
+    "service3_title": "Atlieku mirusių asmenų medicininių dokumentų analizę bei surašau specialisto išvadą",
+    "service4_title": "Išrašau medicininį mirties liudijimą",
+    "service5_title": "Atlieku mirusių asmenų kitų specialistų surašytų dokumentų analizę",
+    "service6_title": "Konsultuoju klausimais, susijusiais mirties priežastimi, mirties laiku, mirusio kūno sužalojimais (sužalojimų pobūdžiu, padarymo būdu, padarymo laiku bei kokį sveikatos sutrikdymo mastą atitinka sužalojimai)",
+    "service7_title": "Konsultuoju klausimais, susijusiais su narkotinėmis medžiagomis, narkotinių medžiagų radimu kraujyje, šlapime, vidaus organuose, kitais su narkotinėmis medžiagomis kilusiais klausimais",
+    "service8_title": "Konsultuoju klausimais, susijusiais su deontologiniais tyrimais"
+  },
+  "DUK": {
+    "page_title": "DUK",
+    "title": "Dažnai Užduodami Klausimai (DUK)",
+    "question1": "Ar konsultacijos vyksta ir išvados teikiamos lietuvių kalba?",
+    "answer1": "Konsultacijos bei visi pateikiami dokumentai klientams yra lietuvių kalba.",
+    "question2": "Kur vyksta konsultacijos?",
+    "answer2": "Dėl konsultacijos prašome susiekti nurodytais kontaktais. Abipusiai priimtinas laikas ir vieta yra suderinami individualiai",
+    "question3": "Kokios paslaugų kainos?",
+    "answer3": "Paslaugų kaina yra sutartinė – nustatoma, atsižvelgiant į konkretų atvejį ir jo aplinkybes.",
+    "question4": "Kuo naudingos nepriklausomo teismo medicinos eksperto paslaugos?",
+    "answer4": "Nepriklausomo teismo medicinos eksperto Gregoire Abi Chaker konsultacijos padeda asmenims, jų artimiesiems, advokatams suprasti jų konkretaus atvejo teismo medicinos aspektus",
+    "question5": "Kokios konsultacijos (paslaugos), susijusios su gyvais asmenimis, yra teikiamos?",
+    "answer5": "Konsultacijos metu bei atlikdamas gyvų asmenų teismo medicinos tyrimus nepriklausomas teismomedicinos ekspertas Gregoire Abi Chaker gali atsakyti į klausimus, susijusius su sužalojimais,sužalojimų padarymo būdu (traumos mechanizmu, panaudota jėga, kt.), sužalojimų padarymo laiku,sveikatos sutrikdymo mastu. Konsultacijos metu bei atlikdamas gyvų asmenų teismo medicinostyrimus nepriklausomas teismo medicinos ekspertas Gregoire Abi Chaker gali taip pat atsakyti įklausimus: ar po gydymo pabaigos gali keistis sveikatos sutrikdymo mastas? Ar dėl traumospatirtos sveikatos būklės pasekmės (sužalojimų liekamieji reiškiniai) gali keistis sveikatossutrikdymo mastas? Ar visada trauma palieka žymių? Kokiais atvejais trauma gali nepalikti žymių?Ar visi sužalojimai sukelia skausmą? Po kiek laiko po traumos gali atsirasti skausmas? Kokiaisatvejais asmuo gali nejausti skausmo? Ar skausmas gali atsirasti tik dėl traumos, ar ir dėl kitųpriežasčių? Bei į kitus klausimus, reikalaujančius specialiųjų žinių",
+    "question6": "Ar teikiamos konsultacijos, susijusios su įtariamu lytiniu nusikaltimu?",
+    "answer6": "Konsultacijos metu bei atlikdamas gyvų asmenų teismo medicinos tyrimus nepriklausomas teismomedicinos ekspertas Gregoire Abi Chaker gali atsakyti į klausimus, susijusius su įtariamu lytiniunusikaltimu (išžaginimu ir kt.).",
+    "question7": "Ar teikiamos konsultacijos, susijusios su kūno subjaurojimu, randais ir pan.?",
+    "answer7": "Nepriklausomas teismo medicinos ekspertas Gregoire Abi Chaker taip pat konsultuoja klausimais,susijusiais su nepataisomu kūno subjaurojimu, randais – jų padarymo būdu, jų padarymo laiku, kokįsveikatos sutrikdymo mastą jie atitinka, kokia jų pašalinimo galimybė.",
+    "question8": "Kokios konsultacijos (paslaugos), susijusios su mirusiais asmenimis, yra teikiamos?",
+    "answer8": "Konsultacijos metu bei atlikdamas mirusiųjų asmenų teismo medicinos tyrimus nepriklausomasteismo medicinos ekspertas Gregoire Abi Chaker gali atsakyti į klausimus, susijusius su mirtiespriežastimi, mirties laiku, kūno sužalojimais – sužalojimų padarymo būdu (mechanizmu),sužalojimų padarymo laiku, sveikatos sutrikdymo mastu. Konsultacijos metu bei atlikdamasmirusiųjų asmenų teismo medicinos tyrimus nepriklausomas teismo medicinos ekspertas GregoireAbi Chaker gali taip pat atsakyti į kitus klausimus, susijusius kūne nustatytų sužalojimų įtakamirčiai, ar artimasis patyrė skausmą prieš mirtį, ar mirtis buvo greita, ar buvo įmanoma išgelbėtigyvybę, jei pagalba būtų suteikta laiku, ar gydymas buvo tinkamas ir (ar) gydymas bei gydymotrūkumai neturėjo įtakos mirčiai, ar mirusiojo kūne yra alkoholis ir (arba) kitos narkotinėsmedžiagos, bei ar tai turėjo įtakos mirčiai. Nepriklausomas teismo medicinos ekspertas GregoireAbi Chaker gali atsakyti ir į kitus klausimus, susijusius su mirusiųjų tyrimais.",
+    "question9": "Ar galite išduoti (išrašyti) mirties liudijimą?",
+    "answer9": "Kai miršta artimas žmogus, šeimos gydytojas gali dėl įvairių priežasčių atsisakyti išduoti medicininįmirties liudijimą. Tokiais ir kitais atvejais, nepriklausomas teismo medicinos ekspertas GregoireAbi Chaker gali suteikti pagalbą, išrašyti medicininį mirties liudijimą.",
+    "question10": "Kokios konsultacijos (paslaugos), susijusios su alkoholiu, girtumu, alkotesteriu ir reikalaujančiosspecialiųjų žinių, yra teikiamos?",
+    "answer10": "Nepriklausomas teismo medicinos ekspertas Gregoire Abi Chaker konsultuoja visais klausimaissusijusiais su alkoholiu: ar asmuo vairavimo metu buvo blaivus? Ar asmuo vairavimo metu buvoneblaivus? Ar alkotesterio parodymai tikslūs? Koks galėjo būti girtumo laipsnis? Nepriklausomasteismo medicinos ekspertas Gregoire Abi Chaker gali atsakyti ir į kitus su alkoholiu susijusiusklausimus, reikalaujančius specialiųjų žinių."
   }
 }
