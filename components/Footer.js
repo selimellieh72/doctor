@@ -1,7 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
+import { useTranslations } from "next-intl"
 
 export default function Footer() {
+  const t = useTranslations("Footer")
   return (
     <footer className="absolute bottom-0 left-0 w-full bg-secondary shadow">
       <div className="mx-auto w-full max-w-screen-xl p-4 md:py-8">
@@ -51,7 +53,7 @@ export default function Footer() {
         </div>
         <hr className=" border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-8" />
         <span className="align mt-4 flex items-center whitespace-nowrap text-xs text-primary sm:text-center lg:text-sm">
-          Tel: +370 640 36369. El. paštas: teismomedicina.gac@gmail.com
+          {t("phone")} {t("email")}
         </span>
       </div>
     </footer>

@@ -1,21 +1,30 @@
+import { useTranslations } from "next-intl"
 import Image from "next/image"
 
-export const metadata = {
-  title: "Apie Mane",
+import { getTranslator } from "next-intl/server"
+
+export async function generateMetadata({ params: { locale } }) {
+  // While the `locale` is required, the namespace is optional and
+  // identical to the parameter that `useTranslations` accepts.
+  const t = await getTranslator(locale, "ApieMane")
+
+  return {
+    title: t("page_title"),
+  }
 }
 
-export default function ApiMane() {
+export default function ApieMane() {
+  const t = useTranslations("ApieMane")
   return (
     <main className="px-4 lg:px-16">
       <section className="hero mx-auto my-16 ">
         <div className=" grid lg:grid-cols-12 lg:gap-8  xl:gap-0">
           <div className="place-self-center text-center lg:col-span-7  lg:mr-auto lg:text-left">
             <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-secondary  ">
-              Gregoire ABI CHAKER
+              {t("title")}
             </h1>
             <p className="mb-6 max-w-2xl font-light text-secondary md:text-lg lg:mb-8 lg:text-xl">
-              Teismo medicinos ekspertas, gydytojas, turintis daugiau nei 20
-              metų patirties.
+              {t("subtitle")}
             </p>
             {/* <a href="#" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-primary rounded-lg bg-secondary focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
                     Get started
@@ -26,30 +35,10 @@ export default function ApiMane() {
         <span className=" rounded-full w-4 h-4 bg-secondary inline-block mx-1"/>
         <span className=" rounded-full w-4 h-4 bg-secondary inline-block mx-1"/>
         </div> */}
-            <p className="lines my-6 text-justify font-semibold leading-8  text-secondary lg:my-8 lg:mr-6">
-              Teismo medicinos gydytojas{" "}
-              <span className=" text-bold">Gregoire ABI CHAKER</span> yra
-              nepriklausomas teismo medicinos ekspertas, privatus teismo
-              ekspertas (įtrauktas į Lietuvos Respublikos teismo ekspertų sąrašą{" "}
-              <a className=" text-blue-400" href="https://shorturl.at/aLST5">
-                https://shorturl.at/aLST5
-              </a>
-              ), turintis aukštąjį universitetinį medicininį išsilavinimą,
-              teismo medicinos gydytojo specialybę, kvalifikaciją atlikti gyvų
-              ir mirusių asmenų tyrimus, teismo medicinos gydytojo licenciją
-              (Nr. MPL-09604). Darbo teismo medicinos srityje stažas nuo 1999
-              metų.
-              <br />
-              Nepriklausomas teismo medicinos ekspertas konsultuoja visais
-              teismo medicinos klausimais bei pateikia konsultacines išvadas
-              (specialisto išvadas). Ekspertas yra kompetentingas, jo specialios
-              žinios yra pagrįstos ilgamete darbo praktika, pasaulinės mokslinės
-              literatūros, objektyvumo, supratingumo bei atidumo principais.
-              Teismo medicinos gydytojas turi daugiau nei 20 metų darbo
-              patirties Lietuvoje teismo medicinos srityje. Yra atlikęs daugiau
-              nei 3 000 mirusiųjų tyrimų (autopsijų) bei daugiau nei 5 000 gyvų
-              asmenų tyrimų.
-            </p>
+            <p
+              dangerouslySetInnerHTML={{ __html: t.raw("description") }}
+              className="lines my-6 text-justify font-semibold leading-8  text-secondary lg:my-8 lg:mr-6"
+            ></p>
           </div>
 
           <div className="relative flex h-[400px]  md:mx-auto md:w-1/2  lg:col-span-5  lg:h-auto lg:w-full">

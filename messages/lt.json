@@ -1,0 +1,42 @@
+{
+  "Home": {
+    "title": "Profesionalios teismo medicinos paslaugos",
+    "title_description": "Konsultuoju visais gyvų ir mirusių asmenų teismo medicinos tyrimų klausimais bei juos atlieku.",
+    "cta": "APIE MANE",
+    "services_title": "Paslaugos",
+    "services_description1": "Konsultacijos ir tyrimai",
+    "services_description2": "Visą paslaugų sąrašą rasite paspaudę ant dominančios srities.",
+    "service1_title": "Gyvų asmenų teismo medicinos\n konsultacijos ir tyrimai",
+    "service2_title": "Mirusių asmenų teismo medicinos konsultacijos ir tyrimai",
+    "testimonials_title": "Atsiliepimai",
+    "testimonials1_text": "Atsakingas, išmanantis,supratingas, nuoširdus,sąžiningas, atsidavęsspecialistas. Šiltas žmogus.Mums pasisekė, kad mumsRekomendavo konsultuotissu šiuo puiku specialistu.Gavome atsakymus į visusklausimus. Ačiū.",
+    "testimonials1_author": "Ž. J.",
+    "testimonials1_location": "Jonavos r.",
+    "testimonials2_text": "Labai vertiname Jūsų supratimąir pagalbą dėl sužalojimo mirusmūsų artimajam. Vertinamgalimybę suprasti, o ne neštinežinomybės naštą. Ačiū užišsamią, suprantamą ir profesionaliąkonsultaciją.",
+    "testimonials2_author": "K. M.",
+    "testimonials2_location": "Kauno r.",
+    "testimonials3_text": "Tiesą sakant, dar nebuvomesusidūrę su gydytoju, kuriamtaip rūpėjo. Esame dėkingi už konsultaciją.",
+    "testimonials3_author": "R. D. ir M. D.",
+    "testimonials3_location": "Vilnius"
+  },
+  "Header": {
+    "head_left_text": "Profesionalios teismo medicinos paslaugos",
+    "head_right_text": "Tel. +370 640 36369",
+    "brand_title": "Gregoire ABI CHAKER",
+    "link1": "Apie mane",
+    "link2": "Gyvų asmenų tyrimai",
+    "link3": "Mirusių asmenų tyrimai",
+    "link4": "DUK",
+    "link5": "Kontaktai"
+  },
+  "Footer": {
+    "email": "El. paštas: teismomedicina.gac@gmail.com",
+    "phone": "Tel. +370 640 36369"
+  },
+  "ApieMane": {
+    "page_title": "Apie mane",
+    "title": "Gregoire ABI CHAKER",
+    "subtitle": "Teismo medicinos ekspertas, gydytojas, turintis daugiau nei 20 metų patirties.",
+    "description": "Teismo medicinos gydytojas <span class=\" font-bold\">Gregoire ABI CHAKER</span> yranepriklausomas teismo medicinos ekspertas, privatus teismoekspertas (įtrauktas į Lietuvos Respublikos teismo ekspertų sąrašą <a class=\" text-blue-400\" href=\"https://shorturl.at/aLST5\">https://shorturl.at/aLST5</a>), turintis aukštąjį universitetinį medicininį išsilavinimą,teismo medicinos gydytojo specialybę, kvalifikaciją atlikti gyvųir mirusių asmenų tyrimus, teismo medicinos gydytojo licenciją(Nr. MPL-09604). Darbo teismo medicinos srityje stažas nuo 1999metų.<br /><br/>Nepriklausomas teismo medicinos ekspertas konsultuoja visaisteismo medicinos klausimais bei pateikia konsultacines išvadas(specialisto išvadas). Ekspertas yra kompetentingas, jo specialiosžinios yra pagrįstos ilgamete darbo praktika, pasaulinės mokslinėsliteratūros, objektyvumo, supratingumo bei atidumo principais.Teismo medicinos gydytojas turi daugiau nei 20 metų darbopatirties Lietuvoje teismo medicinos srityje. Yra atlikęs daugiaunei 3 000 mirusiųjų tyrimų (autopsijų) bei daugiau nei 5 000 gyvųasmenų tyrimų."
+  }
+}

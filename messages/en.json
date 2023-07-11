@@ -1,0 +1,42 @@
+{
+  "Home": {
+    "title": "Forensic consulting services",
+    "title_description": "",
+    "cta": "ABOUT ME",
+    "services_title": "Paslaugos",
+    "services_description1": "Konsultacijos ir tyrimai",
+    "services_description2": "Visą paslaugų sąrašą rasite paspaudę ant dominančios srities.",
+    "service1_title": "Clinical forensic medicine",
+    "service2_title": "Forensic pathology",
+    "testimonials_title": "Testimonials",
+    "testimonials1_text": "We are lucky that we have met Dr. Abi Chaker. We were impressed with his skillfull evaluation of our case, he assisted us professionally, answered allour questions and cleared all doubts we had in mind. He is a responsible,knowledgeable,understanding, sincere,honest, and devotedspecialist. Thank you.",
+    "testimonials1_author": "N. Z.",
+    "testimonials1_location": "Vilnius",
+    "testimonials2_text": "Dr. Abi Chaker guided us during difficult times with much care about oursituation. He conducted the consultation with high professionalism and sincere concerns into finding the true cause behind the death of our beloved family member. He alleviated our distress by not having to carry on with our lives with the mistery of a such loss.",
+    "testimonials2_author": "K. F.",
+    "testimonials2_location": "Kaunas",
+    "testimonials3_text": "A local recommended us a highly professional legal doctor. Our case was verysensitive.We are very grateful for the consultation of Dr. Abi Chaker. We would definetlyrecommend to any person seeking a legal doctor with such a high experience andproven reputation in the field of forensic medicine.",
+    "testimonials3_author": "G. B.",
+    "testimonials3_location": "Klaipėda"
+  },
+  "Header": {
+    "head_left_text": "Forensic consulting services",
+    "head_right_text": "Tel. +370 640 36369",
+    "brand_title": "Gregoire ABI CHAKER",
+    "link1": "About me",
+    "link2": "Clinical forensic medicine",
+    "link3": "Forensic pathology",
+    "link4": "FAQ",
+    "link5": "Contact me"
+  },
+  "Footer": {
+    "email": "Email: teismomedicina.gac@gmail.com",
+    "phone": "Tel. +370 640 36369"
+  },
+  "ApieMane": {
+    "page_title": "About me",
+    "title": "Gregoire ABI CHAKER",
+    "subtitle": "Dr. Gregoire Abi Chaker is a forensic medical expert, with more than 20 years of experience.",
+    "description": "Dr. <span class=\"font-bold\">Gregoire Abi Chaker</span> is a private, independant forensic medical expert (included in the list of forensic experts of the Republic of Lithuania (<a class=\"text-blue-400\" href=\"https://shorturl.at/aLST5\">https://shorturl.at/aLST5</a>), who has the qualification to perform examinations of live and dead persons, forensic medicine doctor&#39;s license (No. MPL-09604). Dr. <span class=\"font-bold\">Gregoire Abi Chaker</span> has a work experience in the field of forensic medicine since 1999.<br/><br/>Forensic medical expert <span class=\"font-bold\">Dr. Gregoire Abi Chaker</span> advises on all forensic issuesand provides reports (expert opinion), his special knowledge is based on many years of work practice, the principle of objectivity, comprehensibility andattentiveness of the global scientific literature. Forensic medical expert <span class=\"font-bold\">Dr. Gregoire Abi Chaker</span> has more than 20 years of work experience in Lithuania inthe field of forensic medicine, has performed more than 3,000 forensic examinations of the dead (autopsies) and more than 5,000 forensic examinations of living persons."
+  }
+}
