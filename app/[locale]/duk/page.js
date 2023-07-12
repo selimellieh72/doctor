@@ -42,7 +42,7 @@ export default function DUK() {
       <section className="services my-16 space-y-16 px-4 text-secondary lg:px-16">
         <div className=" mx-auto flex flex-col justify-center">
           <h2 className="text-center text-2xl font-semibold lg:text-start lg:text-4xl">
-            Klausimai
+            {t("questions")}
           </h2>
           <p className="mb-8 mt-4 dark:text-gray-400">
             {/* Sagittis tempor donec id vestibulum viverra. Neque condimentum

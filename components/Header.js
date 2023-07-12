@@ -70,7 +70,7 @@ export default function Header() {
         >
           <li
             className={`${
-              pathname == "/apie-mane"
+              pathname.includes("/apie-mane")
                 ? "text-amber-900"
                 : "hover:text-amber-700"
             } transition-colors`}
@@ -79,7 +79,7 @@ export default function Header() {
           </li>
           <li
             className={`${
-              pathname == "/gyvu-asmenu-tyrimai"
+              pathname.includes("/gyvu-asmenu-tyrimai")
                 ? "text-amber-900"
                 : "hover:text-amber-700"
             } transition-colors`}
@@ -88,7 +88,7 @@ export default function Header() {
           </li>
           <li
             className={`${
-              pathname == "/mirusiu-asmenu-tyrimai"
+              pathname.includes("/mirusiu-asmenu-tyrimai")
                 ? "text-amber-900"
                 : "hover:text-amber-700"
             } transition-colors`}
@@ -97,14 +97,16 @@ export default function Header() {
           </li>
           <li
             className={`${
-              pathname == "/duk" ? "text-amber-900" : "hover:text-amber-700"
+              pathname.includes("/duk")
+                ? "text-amber-900"
+                : "hover:text-amber-700"
             } transition-colors`}
           >
             <Link href="/duk">{t("link4")}</Link>
           </li>
           <li
             className={`${
-              pathname == "/kontaktai"
+              pathname.includes("/kontaktai")
                 ? "text-amber-900"
                 : "hover:text-amber-700"
             } transition-colors`}
