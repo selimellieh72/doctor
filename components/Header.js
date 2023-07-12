@@ -5,19 +5,18 @@ import { useEffect, useState } from "react"
 import { usePathname } from "next/navigation"
 import { useMediaQuery } from "react-responsive"
 import { useLocale, useTranslations } from "next-intl"
-import ReactCountryFlag from "react-country-flag"
+
 import { useRouter } from "next/navigation"
+import LocaleDropdown from "./LocaleDropdown"
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
   const isMobile = useMediaQuery({ query: "(max-width: 1024px)" })
   const router = useRouter()
-
   const [transitionActive, setTransitionActive] = useState(false)
   const t = useTranslations("Header")
   const pathname = usePathname()
-  const getPathName = (pathname) =>
-    pathname.split("/".length) > 1 ? pathname.split("/")[1] : ""
+
   const locale = useLocale()
 
   useEffect(() => {
@@ -36,17 +35,9 @@ export default function Header() {
     <header className="fixed top-0 z-50 w-full bg-secondary px-12 py-4 lg:py-6">
       <div className="align-item mb-4 hidden items-center justify-between bg-primary px-4 py-2 text-secondary lg:flex">
         <span>{t("head_left_text")}</span>{" "}
-        <span className="mx-2">
+        <span className="mx-2 flex items-center gap-4">
           Tel. <span className="text-secondary">+370 640 36369</span>
-          <Link
-            href={"/" + pathname.replace("/en", "").replace("/lt", "")}
-            locale={locale == "en" ? "lt" : "en"}
-          >
-            <ReactCountryFlag
-              className=" ml-2 !text-3xl"
-              countryCode={locale == "en" ? "LT" : "US"}
-            />
-          </Link>
+          <LocaleDropdown />
         </span>
       </div>
 
@@ -144,14 +135,18 @@ export default function Header() {
       </div>
 
       <Link
-        href={"/" + pathname.replace("/en", "").replace("/lt", "")}
+        href={
+          "/" +
+          pathname
+            .replace("/en/", "")
+            .replace("/lt/", "")
+            .replace("/en", "")
+            .replace("/lt", "")
+        }
         locale={locale == "en" ? "lt" : "en"}
-        className="align-center absolute left-2 top-[28px] flex flex-col space-y-2 p-2 transition-opacity hover:cursor-pointer hover:opacity-80 lg:hidden"
+        className="absolute left-5 top-10 block text-lg font-medium text-primary lg:hidden"
       >
-        <ReactCountryFlag
-          className=" ml-2 !text-3xl"
-          countryCode={locale == "en" ? "LT" : "US"}
-        />
+        {locale == "en" ? "LT" : "EN"}
       </Link>
     </header>
   )

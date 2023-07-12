@@ -93,5 +93,17 @@
     "answer9": "Kai miršta artimas žmogus, šeimos gydytojas gali dėl įvairių priežasčių atsisakyti išduoti medicininįmirties liudijimą. Tokiais ir kitais atvejais, nepriklausomas teismo medicinos ekspertas GregoireAbi Chaker gali suteikti pagalbą, išrašyti medicininį mirties liudijimą.",
     "question10": "Kokios konsultacijos (paslaugos), susijusios su alkoholiu, girtumu, alkotesteriu ir reikalaujančiosspecialiųjų žinių, yra teikiamos?",
     "answer10": "Nepriklausomas teismo medicinos ekspertas Gregoire Abi Chaker konsultuoja visais klausimaissusijusiais su alkoholiu: ar asmuo vairavimo metu buvo blaivus? Ar asmuo vairavimo metu buvoneblaivus? Ar alkotesterio parodymai tikslūs? Koks galėjo būti girtumo laipsnis? Nepriklausomasteismo medicinos ekspertas Gregoire Abi Chaker gali atsakyti ir į kitus su alkoholiu susijusiusklausimus, reikalaujančius specialiųjų žinių."
+  },
+  "Kontaktai": {
+    "page_title": "Kontaktai",
+    "title": "Kontaktai",
+    "subtitle": "Paslaugos teikiamos visoje Lietuvos Respublikoje",
+    "phone": "Tel.",
+    "email": "El. Paštas",
+    "cta": "Susisiekite",
+    "form_name": "Vardas",
+    "form_email": "El. paštas",
+    "form_text": "Tekstas",
+    "form_btn": "Siųsti"
   }
 }

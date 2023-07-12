@@ -1,21 +1,32 @@
 import Image from "next/image"
 import Divider from "@/components/Divider"
+import { useLocale, useTranslations } from "next-intl"
 
-export const metadata = {
-  title: "Kontaktai",
+import { getTranslator } from "next-intl/server"
+
+export async function generateMetadata({ params: { locale } }) {
+  // While the `locale` is required, the namespace is optional and
+  // identical to the parameter that `useTranslations` accepts.
+  const t = await getTranslator(locale, "Kontaktai")
+
+  return {
+    title: t("page_title"),
+  }
 }
 
 export default function Kontaktai() {
+  const t = useTranslations("Kontaktai")
+  const locale = useLocale()
   return (
     <main className="mx-auto px-4 lg:px-16">
       <section className="my-16">
         <div className="mx-auto  grid  lg:grid-cols-12 lg:gap-8  xl:gap-0">
           <div className="place-self-center py-8 text-center lg:col-span-7  lg:mr-auto  lg:py-32 lg:text-left">
             <h1 className="mb-4 max-w-2xl text-5xl font-medium leading-normal tracking-wide text-secondary lg:leading-relaxed">
-              Kontaktai
+              {t("title")}
             </h1>
             <p className="mb-6 max-w-2xl font-light text-secondary md:text-lg lg:mb-8 lg:text-xl">
-              Paslaugos teikiamos visoje Lietuvos Respublikoje.
+              {t("subtitle")}
             </p>
           </div>
 
@@ -35,7 +46,7 @@ export default function Kontaktai() {
         <div className="flex flex-col lg:flex-row">
           <div className="flex w-80 items-center justify-between">
             <span className="text-xl font-medium tracking-wide text-secondary">
-              Tel.
+              {t("phone")}
             </span>
             <Image
               className="hidden lg:block"
@@ -54,7 +65,7 @@ export default function Kontaktai() {
         <div className="flex flex-col lg:flex-row">
           <div className="flex w-80 items-center justify-between">
             <span className="text-xl font-medium tracking-wide text-secondary">
-              El. paštas
+              {t("email")}
             </span>
             <Image
               className="hidden lg:block"
@@ -71,9 +82,13 @@ export default function Kontaktai() {
         </div>
         <div className="contact-us flex pt-4 lg:space-x-4">
           <div className=" hidden w-2/5 bg-secondary  px-4 py-10 lg:block">
-            <div className="flex w-44 items-center justify-between">
+            <div
+              className={`flex ${
+                locale == "lt" && "w-44"
+              } items-center justify-between`}
+            >
               <span className="text-xl font-medium tracking-wide text-primary">
-                Susisiekite
+                {t("cta")}
               </span>
               <Image
                 className="hidden lg:block"
@@ -90,7 +105,7 @@ export default function Kontaktai() {
             <form className=" mx-auto w-3/5">
               <div className="mb-4 w-full">
                 <label className="font-medium " htmlFor="name">
-                  Vardas *
+                  {t("form_name")} *
                 </label>
                 <input
                   required
@@ -100,7 +115,7 @@ export default function Kontaktai() {
               </div>
               <div className="mb-4 w-full">
                 <label className="font-medium " htmlFor="name">
-                  El. paštas *
+                  {t("form_email")} *
                 </label>
                 <input
                   required
@@ -110,7 +125,7 @@ export default function Kontaktai() {
               </div>
               <div className="mb-4 w-full">
                 <label className="font-medium " htmlFor="name">
-                  Tekstas
+                  {t("form_text")}
                 </label>
                 <input
                   id="name"
@@ -121,7 +136,7 @@ export default function Kontaktai() {
                   href="/apie-mane"
                   className="focus:ring-primary-300 dark:focus:ring-primary-900 mr-3 mt-8 inline-flex items-center justify-center rounded-xl bg-primary px-12  py-2 text-center text-base font-medium text-secondary invalid:border-red-700 focus:ring-4"
                 >
-                  Siųsti
+                  {t("form_btn")}
                 </button>
               </div>
             </form>
