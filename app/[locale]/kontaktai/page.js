@@ -7,10 +7,11 @@ import { getTranslator } from "next-intl/server"
 export async function generateMetadata({ params: { locale } }) {
   // While the `locale` is required, the namespace is optional and
   // identical to the parameter that `useTranslations` accepts.
-  const t = await getTranslator(locale, "Kontaktai")
+  const t = await getTranslator(locale, "Home")
 
   return {
     title: t("page_title"),
+    description: t("page_description"),
   }
 }
 

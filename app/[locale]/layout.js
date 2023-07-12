@@ -1,6 +1,7 @@
 import "./globals.css"
 import { Inter } from "next/font/google"
 import { NextIntlClientProvider, useLocale } from "next-intl"
+import Head from "next/head"
 import { notFound } from "next/navigation"
 
 import Header from "@/components/Header"
@@ -11,6 +12,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Gregoire ABI CHAKER",
   description: "Gregoire ABI CHAKER",
+  keywords: ["Hello", "World"],
 }
 
 export default async function RootLayout({ children, params }) {
@@ -29,6 +31,9 @@ export default async function RootLayout({ children, params }) {
   }
   return (
     <html lang={locale}>
+      <head>
+        <meta name="robots" content="follow, index" />
+      </head>
       <body className={`${inter.className} bg-primary`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />

@@ -1,6 +1,7 @@
 {
   "Home": {
     "page_title": "Gregoire ABI CHAKER",
+    "page_description": "Teismo medicinos ekspertas, gydytojas, turintis daugiau nei 20 metų patirties.",
     "title": "Profesionalios teismo medicinos paslaugos",
     "title_description": "Konsultuoju visais gyvų ir mirusių asmenų teismo medicinos tyrimų klausimais bei juos atlieku.",
     "cta": "APIE MANE",
@@ -36,12 +37,14 @@
   },
   "ApieMane": {
     "page_title": "Apie mane",
+    "page_description": "Teismo medicinos ekspertas, gydytojas, turintis daugiau nei 20 metų patirties.",
     "title": "Gregoire ABI CHAKER",
     "subtitle": "Teismo medicinos ekspertas, gydytojas, turintis daugiau nei 20 metų patirties.",
     "description": "Teismo medicinos gydytojas <span class=\" font-bold\">Gregoire ABI CHAKER</span> yranepriklausomas teismo medicinos ekspertas, privatus teismoekspertas (įtrauktas į Lietuvos Respublikos teismo ekspertų sąrašą <a class=\" text-blue-400\" href=\"https://shorturl.at/aLST5\">https://shorturl.at/aLST5</a>), turintis aukštąjį universitetinį medicininį išsilavinimą,teismo medicinos gydytojo specialybę, kvalifikaciją atlikti gyvųir mirusių asmenų tyrimus, teismo medicinos gydytojo licenciją(Nr. MPL-09604). Darbo teismo medicinos srityje stažas nuo 1999metų.<br /><br/>Nepriklausomas teismo medicinos ekspertas konsultuoja visaisteismo medicinos klausimais bei pateikia konsultacines išvadas(specialisto išvadas). Ekspertas yra kompetentingas, jo specialiosžinios yra pagrįstos ilgamete darbo praktika, pasaulinės mokslinėsliteratūros, objektyvumo, supratingumo bei atidumo principais.Teismo medicinos gydytojas turi daugiau nei 20 metų darbopatirties Lietuvoje teismo medicinos srityje. Yra atlikęs daugiaunei 3 000 mirusiųjų tyrimų (autopsijų) bei daugiau nei 5 000 gyvųasmenų tyrimų."
   },
   "GyvuAsmenuTryimai": {
     "page_title": "Gyvų asmenų tyrimai",
+    "page_description": "Konsultacijos ir tyrimai",
     "title": "Gyvų asmenų teismo medicinos tyrimai",
     "services_title": "Konsultacijos ir tyrimai",
     "services_subtitle": "Paslaugos:",
@@ -58,6 +61,7 @@
   },
   "MirusiuAsmenuTyrimai": {
     "page_title": "Mirusių asmenų tyrimai",
+    "page_description": "Konsultacijos ir tyrimai",
     "title": "Mirusių asmenų teismo medicinos tyrimai",
     "services_title": "Konsultacijos ir tyrimai",
     "services_subtitle": "Paslaugos:",
@@ -72,6 +76,7 @@
   },
   "DUK": {
     "page_title": "DUK",
+    "page_description": "Dažnai užduodami klausimai",
     "questions": "Klausimai",
     "title": "Dažnai Užduodami Klausimai (DUK)",
     "question1": "Ar konsultacijos vyksta ir išvados teikiamos lietuvių kalba?",
@@ -97,6 +102,7 @@
   },
   "Kontaktai": {
     "page_title": "Kontaktai",
+    "page_description": "Paslaugos teikiamos visoje Lietuvos Respublikoje",
     "title": "Kontaktai",
     "subtitle": "Paslaugos teikiamos visoje Lietuvos Respublikoje",
     "phone": "Tel.",

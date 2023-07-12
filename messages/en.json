@@ -1,6 +1,7 @@
 {
   "Home": {
     "page_title": "Gregoire ABI CHAKER",
+    "page_description": "Dr. Gregoire Abi Chaker is a forensic medical expert, with more than 20 years of experience.",
     "title": "Forensic consulting services",
     "title_description": "",
     "cta": "ABOUT ME",
@@ -22,6 +23,7 @@
   },
   "Header": {
     "head_left_text": "Forensic consulting services",
+
     "head_right_text": "Tel. +370 640 36369",
     "brand_title": "Gregoire ABI CHAKER",
     "link1": "About me",
@@ -36,12 +38,14 @@
   },
   "ApieMane": {
     "page_title": "About me",
+    "page_description": "Dr. Gregoire Abi Chaker is a forensic medical expert, with more than 20 years of experience.",
     "title": "Gregoire ABI CHAKER",
     "subtitle": "Dr. Gregoire Abi Chaker is a forensic medical expert, with more than 20 years of experience.",
     "description": "Dr. <span class=\"font-bold\">Gregoire Abi Chaker</span> is a private, independant forensic medical expert (included in the list of forensic experts of the Republic of Lithuania (<a class=\"text-blue-500\" href=\"https://shorturl.at/aLST5\">https://shorturl.at/aLST5</a>), who has the qualification to perform examinations of live and dead persons, forensic medicine doctor&#39;s license (No. MPL-09604). Dr. <span class=\"font-bold\">Gregoire Abi Chaker</span> has a work experience in the field of forensic medicine since 1999.<br/><br/>Forensic medical expert <span class=\"font-bold\">Dr. Gregoire Abi Chaker</span> provides consultation on all forensic issues and provides reports (expert opinion), his knowledge is based on many years of work practice, the principle of objectivity, comprehensibility and attentiveness of the global scientific literature. Forensic medical expert <span class=\"font-bold\">Dr. Gregoire Abi Chaker</span> has more than 20 years of work experience in Lithuania inthe field of forensic medicine, has performed more than 3,000 forensic examinations of the dead (autopsies) and more than 5,000 forensic examinations of living persons."
   },
   "GyvuAsmenuTryimai": {
     "page_title": "Clinical forensic medicine",
+    "page_description": "Dr. Gregoire Abi Chaker is a forensic medical expert, that provides clinical forensic medicine services.",
     "title": "Clinical forensic medicine",
     "services_title": "Forensic medical consulting",
     "services_subtitle": "Services:",
@@ -58,6 +62,7 @@
   },
   "MirusiuAsmenuTyrimai": {
     "page_title": "Forensic pathology",
+    "page_description": "Dr. Gregoire Abi Chaker is a forensic medical expert, that provides forensic pathology services.",
     "title": "Forensic pathology",
     "services_title": "Forensic medical consulting",
     "services_subtitle": "Services:",
@@ -72,6 +77,8 @@
   },
   "DUK": {
     "page_title": "FAQ",
+    "page_description": "Dr. Gregoire Abi Chaker is a forensic medical expert, that provides forensic pathology services. FAQ.",
+
     "questions": "Questions",
     "title": "Frequently Asked Questions (FAQ)",
     "question1": "Are consultations and forensic reports presented in lithuanian?",
@@ -98,6 +105,7 @@
   },
   "Kontaktai": {
     "page_title": "Contact me",
+    "page_description": "Dr. Gregoire Abi Chaker is a forensic medical expert. Contact him.",
     "title": "Contact me",
     "subtitle": "",
     "phone": "Phone",
