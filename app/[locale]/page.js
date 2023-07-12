@@ -114,8 +114,8 @@ Konsultuoju visais gyvų ir mirusių asmenų teismo medicinos tyrimų klausimais
             {/* <div className="text-center text-primary font-light">Here are what some of our amazing customers are
           saying ...</div> */}
           </div>
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 ">
-            <div className="relative mx-auto mt-8 flex  flex-col justify-between rounded-lg bg-gray-100 p-10 leading-snug text-gray-700 shadow">
+          <div className="flex flex-col items-center justify-center gap-4 lg:flex-row">
+            <div className="mt-8 flex max-w-sm flex-1 flex-col justify-between rounded-lg bg-gray-100 p-10 leading-snug text-gray-700 shadow">
               <div className="-ml-4">
                 <svg
                   className="w-8 text-primary opacity-25"
@@ -145,7 +145,7 @@ Konsultuoju visais gyvų ir mirusių asmenų teismo medicinos tyrimų klausimais
                     />
                   </div>
                   <div className="ml-4">
-                    <div className="font-bold">{t("testimonials1_author")}</div>
+                    <div className="font-bold">{t("testimonials2_author")}</div>
                     <div className="mt-1 text-sm text-primary">
                       {t("testimonials1_location")}
                     </div>
@@ -153,7 +153,7 @@ Konsultuoju visais gyvų ir mirusių asmenų teismo medicinos tyrimų klausimais
                 </div>
               </div>
             </div>
-            <div className="mx-auto mt-8 flex max-w-sm flex-col justify-between rounded-lg bg-gray-100 p-10 leading-snug text-gray-700 shadow">
+            <div className="mt-8 flex max-w-sm flex-1 flex-col justify-between rounded-lg bg-gray-100 p-10 leading-snug text-gray-700 shadow">
               <div className="-ml-4">
                 <svg
                   className="w-8 text-primary opacity-25"
@@ -191,7 +191,7 @@ Konsultuoju visais gyvų ir mirusių asmenų teismo medicinos tyrimų klausimais
                 </div>
               </div>
             </div>
-            <div className="mx-auto mt-8 flex max-w-sm flex-col justify-between rounded-lg bg-gray-100 p-10 leading-snug text-gray-700 shadow">
+            <div className="mt-8 flex max-w-sm flex-1 flex-col justify-between rounded-lg bg-gray-100 p-10 leading-snug text-gray-700 shadow">
               <div className="-ml-4">
                 <svg
                   className="w-8 text-primary opacity-25"

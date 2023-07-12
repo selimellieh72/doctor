@@ -5,6 +5,10 @@
 
 body{ min-height:100vh; margin:0; position:relative; }
 
+a {
+    cursor: pointer !important;
+}
+
 
 body::before{
     content: "";
