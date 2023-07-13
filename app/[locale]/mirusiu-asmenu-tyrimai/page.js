@@ -23,7 +23,7 @@ export default function MirusiuAsmenuTyrimai() {
       <section className="hero my-16">
         <div className=" grid  lg:grid-cols-12 lg:gap-8  xl:gap-0">
           <div className="lg py-8 text-center  lg:col-span-7  lg:py-32 lg:text-left">
-            <h1 className="mb-4 max-w-2xl text-5xl font-medium leading-normal tracking-wide text-secondary lg:leading-relaxed">
+            <h1 className="mb-4 text-5xl font-medium leading-normal tracking-wide text-secondary lg:leading-relaxed">
               {t("title")}
             </h1>
           </div>
