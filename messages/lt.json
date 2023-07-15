@@ -9,16 +9,16 @@
     "services_description1": "Konsultacijos ir tyrimai",
     "services_description2": "Visą paslaugų sąrašą rasite paspaudę ant dominančios srities.",
     "service1_title": "Gyvų asmenų teismo medicinos\n konsultacijos ir tyrimai",
-    "service2_title": "Mirusių asmenų teismo medicinos konsultacijos ir tyrimai",
+    "service2_title": "Mirusių asmenų teismo medicinos\n konsultacijos ir tyrimai",
     "testimonials_title": "Atsiliepimai",
-    "testimonials1_text": "Atsakingas, išmanantis,supratingas, nuoširdus,sąžiningas, atsidavęsspecialistas. Šiltas žmogus.Mums pasisekė, kad mumsRekomendavo konsultuotissu šiuo puiku specialistu.Gavome atsakymus į visusklausimus. Ačiū.",
+    "testimonials1_text": "Atsakingas, išmanantis, supratingas, nuoširdus, sąžiningas, atsidavęs specialistas. Šiltas žmogus. Mums pasisekė, kad mums Rekomendavo konsultuotis su šiuo puiku specialistu. Gavome atsakymus į visusklausimus. Ačiū.",
     "testimonials1_author": "Ž. J.",
     "testimonials1_location": "Jonavos r.",
-    "testimonials2_text": "Labai vertiname Jūsų supratimąir pagalbą dėl sužalojimo mirusmūsų artimajam. Vertinamgalimybę suprasti, o ne neštinežinomybės naštą. Ačiū užišsamią, suprantamą ir profesionaliąkonsultaciją.",
+    "testimonials2_text": "Labai vertiname Jūsų supratimą ir pagalbą dėl sužalojimo mirus mūsų artimajam. Vertinam galimybę suprasti, o ne nešti nežinomybės naštą. Ačiū už išsamią, suprantamą ir profesionalią konsultaciją.",
     "testimonials2_author": "K. M.",
     "testimonials2_location": "Kauno r.",
-    "testimonials3_text": "Tiesą sakant, dar nebuvomesusidūrę su gydytoju, kuriamtaip rūpėjo. Esame dėkingi už konsultaciją.",
-    "testimonials3_author": "R. D. ir M. D.",
+    "testimonials3_text": "Tiesą sakant, dar nebuvome susidūrę su gydytoju, kuriam taip rūpėjo. Esame dėkingi už konsultaciją.",
+    "testimonials3_author": " R. D.  ir M. D.",
     "testimonials3_location": "Vilnius"
   },
   "Header": {
@@ -40,7 +40,7 @@
     "page_description": "Teismo medicinos ekspertas, gydytojas, turintis daugiau nei 20 metų patirties.",
     "title": "Gregoire ABI CHAKER",
     "subtitle": "Teismo medicinos ekspertas, gydytojas, turintis daugiau nei 20 metų patirties.",
-    "description": "Teismo medicinos gydytojas <span class=\" font-bold\">Gregoire ABI CHAKER</span> yranepriklausomas teismo medicinos ekspertas, privatus teismoekspertas (įtrauktas į Lietuvos Respublikos teismo ekspertų sąrašą <a class=\" text-blue-500\" href=\"https://shorturl.at/aLST5\">https://shorturl.at/aLST5</a>), turintis aukštąjį universitetinį medicininį išsilavinimą,teismo medicinos gydytojo specialybę, kvalifikaciją atlikti gyvųir mirusių asmenų tyrimus, teismo medicinos gydytojo licenciją(Nr. MPL-09604). Darbo teismo medicinos srityje stažas nuo 1999metų.<br /><br/>Nepriklausomas teismo medicinos ekspertas konsultuoja visaisteismo medicinos klausimais bei pateikia konsultacines išvadas(specialisto išvadas). Ekspertas yra kompetentingas, jo specialiosžinios yra pagrįstos ilgamete darbo praktika, pasaulinės mokslinėsliteratūros, objektyvumo, supratingumo bei atidumo principais.Teismo medicinos gydytojas turi daugiau nei 20 metų darbopatirties Lietuvoje teismo medicinos srityje. Yra atlikęs daugiaunei 3 000 mirusiųjų tyrimų (autopsijų) bei daugiau nei 5 000 gyvųasmenų tyrimų."
+    "description": "Teismo medicinos gydytojas <span class=\" font-bold\">Gregoire ABI CHAKER</span> yra nepriklausomas teismo medicinos ekspertas, privatus teismo ekspertas (įtrauktas į Lietuvos Respublikos teismo ekspertų sąrašą <a class=\" text-blue-500\" href=\"https://shorturl.at/aLST5\">https://shorturl.at/aLST5</a>), turintis aukštąjį universitetinį medicininį išsilavinimą, teismo medicinos gydytojo specialybę, kvalifikaciją atlikti gyvų ir mirusių asmenų tyrimus, teismo medicinos gydytojo licenciją (Nr. MPL-09604). Darbo teismo medicinos srityje stažas nuo 1999 metų.<br /><br/>Nepriklausomas teismo medicinos ekspertas konsultuoja visais teismo medicinos klausimais bei pateikia konsultacines išvadas (specialisto išvadas). Ekspertas yra kompetentingas, jo specialios žinios yra pagrįstos ilgamete darbo praktika, pasaulinės mokslinės literatūros, objektyvumo, supratingumo bei atidumo principais. Teismo medicinos gydytojas turi daugiau nei 20 metų darbo patirties Lietuvoje teismo medicinos srityje. Yra atlikęs daugiau nei 3 000 mirusiųjų tyrimų (autopsijų) bei daugiau nei 5 000 gyvų asmenų tyrimų."
   },
   "GyvuAsmenuTryimai": {
     "page_title": "Gyvų asmenų tyrimai",

@@ -77,7 +77,7 @@ Konsultuoju visais gyvų ir mirusių asmenų teismo medicinos tyrimų klausimais
             </p>
           </div>
         </div>
-        <div className="flex flex-col gap-2 lg:flex-row">
+        <div className="flex flex-col gap-8  lg:flex-row lg:gap-2">
           <div className="relative bottom-0 flex-1 bg-secondary p-10 text-xl font-medium leading-relaxed text-primary transition-all hover:bottom-4 hover:cursor-pointer">
             <Link href="/gyvu-asmenu-tyrimai">
               <Image

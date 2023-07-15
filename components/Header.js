@@ -136,20 +136,44 @@ export default function Header() {
         ></span>
       </div>
 
-      <Link
-        href={
-          "/" +
-          pathname
-            .replace("/en/", "")
-            .replace("/lt/", "")
-            .replace("/en", "")
-            .replace("/lt", "")
-        }
-        locale={locale == "en" ? "lt" : "en"}
-        className="absolute left-5 top-10 block text-lg font-medium text-primary lg:hidden"
-      >
-        {locale == "en" ? "LT" : "EN"}
-      </Link>
+      <div className="absolute left-3 top-9 flex items-center gap-2">
+        <Link
+          href={
+            "/" +
+            pathname
+              .replace("/en/", "")
+              .replace("/lt/", "")
+              .replace("/en", "")
+              .replace("/lt", "")
+          }
+          locale={"lt"}
+          className={` block  text-sm ${
+            locale == "lt"
+              ? "font-bold underline underline-offset-4"
+              : "font-medium"
+          } text-primary lg:hidden`}
+        >
+          LT
+        </Link>
+        <Link
+          href={
+            "/" +
+            pathname
+              .replace("/en/", "")
+              .replace("/lt/", "")
+              .replace("/en", "")
+              .replace("/lt", "")
+          }
+          locale={"en"}
+          className={` block border-l-2 border-primary p-2  text-sm ${
+            locale == "en"
+              ? "font-bold underline underline-offset-4"
+              : "font-medium"
+          } text-primary lg:hidden`}
+        >
+          EN
+        </Link>
+      </div>
     </header>
   )
 }
