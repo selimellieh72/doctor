@@ -27,7 +27,7 @@ body::after{
     body::before{
         content: "";
         display: block;
-        height: 75px;
+        height: 3rem;
     }
     
 }

@@ -35,7 +35,7 @@ export default function Header() {
     <header className="fixed top-0 z-50 w-full bg-secondary px-12 py-4 lg:py-6">
       <div className="align-item mb-4 hidden items-center justify-between bg-primary px-4 py-2 text-secondary lg:flex">
         <span>{t("head_left_text")}</span>{" "}
-        <span className="mx-2 flex items-center gap-4">
+        <span className="font-sem mx-2 flex items-center gap-4">
           Tel. <span className="text-secondary">+370 640 36369</span>
           <LocaleDropdown />
         </span>
@@ -57,7 +57,7 @@ export default function Header() {
           </div>
         </Link>
 
-        <span className="font-bold text-primary lg:hidden">
+        <span className=" font-medium text-primary lg:hidden">
           Tel. +370 640 36369
         </span>
 
@@ -65,7 +65,7 @@ export default function Header() {
           className={`mt-4 overflow-hidden lg:mt-0  ${
             transitionActive ? "transition-all" : ""
           } lg:transition-none  ${
-            isOpen ? "max-h-[350px]" : "max-h-0"
+            isOpen ? "max-h-[350px]" : "!m-0 max-h-0 !p-0"
           } flex-col space-y-10 text-center font-medium text-primary lg:flex lg:max-h-[350px] lg:flex-row lg:space-x-8 lg:space-y-0 lg:pt-0`}
         >
           <li
@@ -117,7 +117,7 @@ export default function Header() {
       </div>
       <div
         onClick={() => setIsOpen(!isOpen)}
-        className="align-center absolute right-4 top-[35px] flex flex-col space-y-2 p-2 transition-opacity hover:cursor-pointer hover:opacity-80 lg:hidden"
+        className="align-center absolute right-4 top-7 flex flex-col space-y-2 p-2 transition-opacity hover:cursor-pointer hover:opacity-80 lg:hidden"
       >
         <span
           className={`h-0.5 w-7 transform bg-primary ${
@@ -136,7 +136,7 @@ export default function Header() {
         ></span>
       </div>
 
-      <div className="absolute left-3 top-9 flex items-center gap-2">
+      <div className="absolute left-3 top-7 flex items-center gap-2">
         <Link
           href={
             "/" +
