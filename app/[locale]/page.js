@@ -146,7 +146,7 @@ Konsultuoju visais gyvų ir mirusių asmenų teismo medicinos tyrimų klausimais
                     />
                   </div>
                   <div className="ml-4">
-                    <div className="font-bold">{t("testimonials2_author")}</div>
+                    <div className="font-bold">{t("testimonials1_author")}</div>
                     <div className="mt-1 text-sm text-primary">
                       {t("testimonials1_location")}
                     </div>
