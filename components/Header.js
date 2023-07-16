@@ -51,15 +51,16 @@ export default function Header() {
               alt="Heart pump image"
             />
 
-            <span className=" text-lg font-bold text-primary">
-              {t("brand_title")}
-            </span>
+            <div className="flex flex-col">
+              <span className=" text-lg font-bold text-primary">
+                {t("brand_title")}
+              </span>
+              <span className=" font-medium text-primary lg:hidden">
+                Tel. +370 640 36369
+              </span>
+            </div>
           </div>
         </Link>
-
-        <span className=" font-medium text-primary lg:hidden">
-          Tel. +370 640 36369
-        </span>
 
         <ul
           className={`mt-4 overflow-hidden lg:mt-0  ${
