@@ -15,62 +15,43 @@ export default function LocaleDropdown({ className }) {
   const pathname = usePathname()
 
   return (
-    <div
-      className={className}
-      onClick={() => setDropdownEnabled(!dropdownEnabled)}
-    >
-      <button
-        id="dropdownBtn"
-        className="inline-flex items-center rounded-lg  bg-secondary px-5 py-2.5 text-center text-sm font-medium text-primary focus:outline-none  "
-        type="button"
+    <div className=" flex items-center gap-2">
+      <Link
+        href={
+          "/" +
+          pathname
+            .replace("/en/", "")
+            .replace("/lt/", "")
+            .replace("/en", "")
+            .replace("/lt", "")
+        }
+        locale={"lt"}
+        className={` block  text-sm ${
+          locale == "lt"
+            ? "font-bold underline underline-offset-4"
+            : "font-medium"
+        } text-secondary`}
       >
-        {locale.toUpperCase()}
-
-        <svg
-          id="dropdownBtn"
-          className="ml-2.5 h-2.5 w-2.5"
-          aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 10 6"
-        >
-          <path
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="m1 1 4 4 4-4"
-          />
-        </svg>
-      </button>
-      <div
-        id="dropdownHover"
-        className={`absolute z-10 ${
-          !dropdownEnabled ? "hidden" : ""
-        }  w-20 divide-y divide-gray-100 rounded-lg bg-primary shadow`}
+        LT
+      </Link>
+      <Link
+        href={
+          "/" +
+          pathname
+            .replace("/en/", "")
+            .replace("/lt/", "")
+            .replace("/en", "")
+            .replace("/lt", "")
+        }
+        locale={"en"}
+        className={` block border-l-2 border-secondary p-2  text-sm ${
+          locale == "en"
+            ? "font-bold underline underline-offset-4"
+            : "font-medium"
+        } text-secondary`}
       >
-        <ul
-          className="py-2 text-sm text-secondary"
-          aria-labelledby="dropdownHoverButton"
-        >
-          <Link
-            href={
-              "/" +
-              pathname
-                .replace("/en/", "")
-                .replace("/lt/", "")
-                .replace("/en", "")
-                .replace("/lt", "")
-            }
-            className=" cursor-pointer"
-            locale={locale == "en" ? "lt" : "en"}
-          >
-            <li className="block  px-4 py-2 text-center hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-              {locale == "en" ? "LT" : "EN"}
-            </li>
-          </Link>
-        </ul>
-      </div>
+        EN
+      </Link>
     </div>
   )
 }
