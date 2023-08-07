@@ -103,14 +103,19 @@ export default function Kontaktai() {
             <span className="mx-auto mb-8 table text-center text-xl font-medium tracking-wide text-primary lg:hidden">
               Susisiekite
             </span>
-            <form className=" mx-auto w-3/5">
+            <form
+              action="mailto:teismomedicina.gac@gmail.com"
+              className=" mx-auto w-3/5"
+            >
               <div className="mb-4 w-full">
-                <label className="font-medium " htmlFor="name">
+                <label className="font-medium " htmlFor="subject">
                   {t("form_name")} *
                 </label>
                 <input
                   required
-                  id="name"
+                  name="subject"
+                  id="subject"
+                  type="text"
                   className="mt-2 block h-10 w-full border-b border-primary bg-transparent p-4 outline-none invalid:border-red-700 hover:border focus:border"
                 ></input>
               </div>
@@ -120,16 +125,19 @@ export default function Kontaktai() {
                 </label>
                 <input
                   required
-                  id="name"
+                  name="email"
+                  id="email"
+                  type="email"
                   className="mt-2 block h-10 w-full border-b border-primary bg-transparent p-4 outline-none invalid:border-red-700 hover:border focus:border"
                 ></input>
               </div>
               <div className="mb-4 w-full">
-                <label className="font-medium " htmlFor="name">
+                <label className="font-medium " htmlFor="body">
                   {t("form_text")}
                 </label>
                 <input
-                  id="name"
+                  name="body"
+                  id="body"
                   className="mt-2 block h-10 w-full border-b border-primary bg-transparent p-4 outline-none hover:border focus:border"
                 ></input>
                 <button
