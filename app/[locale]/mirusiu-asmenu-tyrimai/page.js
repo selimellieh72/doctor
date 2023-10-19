@@ -76,7 +76,7 @@ export default function MirusiuAsmenuTyrimai() {
               </svg>
               <span>{t("service1_title")}</span>
             </li>
-            <li className="flex items-center space-x-3">
+            {/* <li className="flex items-center space-x-3">
               <svg
                 className="h-5 w-5 flex-shrink-0 text-blue-500 "
                 fill="currentColor"
@@ -90,7 +90,7 @@ export default function MirusiuAsmenuTyrimai() {
                 ></path>
               </svg>
               <span>{t("service2_title")}</span>
-            </li>
+            </li> */}
             <li className="flex items-center space-x-3">
               <svg
                 className="h-5 w-5 flex-shrink-0 text-blue-500 "
@@ -166,7 +166,7 @@ export default function MirusiuAsmenuTyrimai() {
               </svg>
               <span>{t("service7_title")}</span>
             </li>
-            {locale == "lt" && (
+            {/* {locale == "lt" && (
               <li className="flex items-center space-x-3">
                 <svg
                   className="h-5 w-5 flex-shrink-0 text-blue-500 "
@@ -182,7 +182,7 @@ export default function MirusiuAsmenuTyrimai() {
                 </svg>
                 <span>{t("service8_title")}</span>
               </li>
-            )}
+            )} */}
           </ul>
         </div>
       </section>

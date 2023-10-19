@@ -74,7 +74,7 @@ export default function GyvuAsmenuTryimai() {
               </svg>
               <span>{t("service1_title")}</span>
             </li>
-            <li className="flex items-center space-x-3">
+            {/* <li className="flex items-center space-x-3">
               <svg
                 className="h-5 w-5 flex-shrink-0 text-blue-500 "
                 fill="currentColor"
@@ -88,7 +88,7 @@ export default function GyvuAsmenuTryimai() {
                 ></path>
               </svg>
               <span>{t("service2_title")}</span>
-            </li>
+            </li> */}
             <li className="flex items-center space-x-3">
               <svg
                 className="h-5 w-5 flex-shrink-0 text-blue-500 "
@@ -194,7 +194,7 @@ export default function GyvuAsmenuTryimai() {
               </svg>
               <span>{t("service9_title")}</span>
             </li>
-            <li className="flex items-center space-x-3">
+            {/* <li className="flex items-center space-x-3">
               <svg
                 className="h-5 w-5 flex-shrink-0 text-blue-500 "
                 fill="currentColor"
@@ -208,7 +208,7 @@ export default function GyvuAsmenuTryimai() {
                 ></path>
               </svg>
               <span>{t("service10_title")}</span>
-            </li>
+            </li> */}
           </ul>
         </div>
       </section>
